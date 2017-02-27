@@ -11,7 +11,23 @@ package body Tablero is
 
    procedure Jugar (Nombre_Jugador: in String; Fin_Correcto: out Boolean) is
       begin
-        Interfaz.Visualizar(Nombre_Jugador, sudokus.Identificador
+         Interfaz.Visualizar(Nombre_Jugador, Sudokus.Identificador(Sudoku_Actual), Sudokus.Dificultad(Sudoku_Actual));
+         for fila in indices.Indice loop
+            for columna in indices.Indice loop
+               cas_t := matrices_casillas.Casilla(Sudokus.Matriz(sudoku_actual), fila, columna);
+               if casillas.Es_Inicial(cas_t) then
+                  matrices_casillas.Copiar_Casilla( Tablero_De_Juego, fila, columna, cas_t);
+                  interfaz.Visualizar_Valor_Inicial(fila,columna,casillas.Valor(matrices_casillas.Casilla(Sudokus.Matriz(sudoku_actual), fila, columna)));
+               end if;
+            end loop;
+         end loop;
+         Interfaz.Comenzar;
+         if solucion_correcta then
+            fin_correcto := true;
+            Interfaz.Mostrar_Mensaje("Enhorabuena!");
+         else
+            fin_correcto := false;
+            Interfaz.Mostrar_Mensaje("Que mal... :(", Interfaz.Error);
          end if;
          Tablero.Interfaz.Liberar;
    end Jugar;
