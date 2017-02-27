@@ -1,8 +1,6 @@
 package body Matrices_Casillas is
 
-   procedure Leer_Inicial (Fich: in out Ada.Text_IO.File_Type; MC: out Matriz) is;
-      cifra:strin(1..1);
-      c:casillas.casilla;
+   procedure Leer_Inicial (Fich: in out Ada.Text_IO.File_Type; MC: out Matriz);
 begin
    for Fila in Indices.Indice loop
       for Columna in Indices.Indice loop
