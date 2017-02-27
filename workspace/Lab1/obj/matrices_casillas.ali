@@ -25,7 +25,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK
 
-U matrices_casillas%b	matrices_casillas.adb	e67fe2a2 OO PK
+U matrices_casillas%b	matrices_casillas.adb	bf32af36 OO PK
 
 D ada.ads		20130417131022 3ffc8e18
 D a-finali.ads		20130417131020 52ecdc1b
@@ -38,7 +38,7 @@ D indices.ads		20170208163348 d42b7d02
 D interfac.ads		20130417131026 cb4a8015
 D i-cstrea.ads		20130417131026 8128536b
 D matrices_casillas.ads	20170208163348 5652a531
-D matrices_casillas.adb	20170227184250 b02d4793
+D matrices_casillas.adb	20170227184444 e9600a07
 D numeros.ads		20170208163348 a4214673
 D system.ads		20130417131036 5fc8ae56
 D s-crtl.ads		20130417131028 dfcfca61
