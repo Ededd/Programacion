@@ -1,0 +1,78 @@
+V "GNAT Lib v2013"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P CE NO ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U tablero%s		tablero.ads		fd7c65a1 EE OO PK
+W indices%s		indices.ads		indices.ali
+W numeros%s		numeros.ads		numeros.ali
+W sudokus%s		sudokus.adb		sudokus.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-finali.ads		20130417131020 52ecdc1b
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-textio.ads		20130417131022 386df5d4
+D casillas.ads		20170208174154 8d6d39c1
+D ids_grupo_casillas.ads  20170208163348 8f5d0139
+D indices.ads		20170208163348 d42b7d02
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D matrices_casillas.ads	20170208163348 5652a531
+D niveles_dificultad.ads  20170227185928 b1764c84
+D numeros.ads		20170208163348 a4214673
+D sudokus.ads		20170227185928 464ad964
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-stoele.ads		20130417131032 facd7d98
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D tablero.ads		20170227185928 cb3c87b4
+X 8 indices.ads
+1K9*Indices 7e12 25|1w15 20r38 23r38
+3I12*Indice{positive} 25|20r46 23r46
+X 13 numeros.ads
+1K9*Numeros 5e12 25|1w24 20r60
+3I12*Numero{positive} 25|20r68
+X 14 sudokus.ads
+5K9*Sudokus 31e12 25|1w6 4r34
+7R9*Sudoku 30e14 25|4r42
+X 25 tablero.ads
+2K9*Tablero 34l5 34e12
+4U14*Cargar_Sudoku 4>28
+4r28 S{14|7R9}
+7U14*Jugar 7>21 7<48
+7s21 Nombre_Jugador{string}
+7b48 Fin_Correcto{boolean}
+17V13*Solucion_Correcta{boolean}
+20U14*Anotar_Numero 20>29 20>32 20>54
+20i29 F{8|3I12}
+20i32 C{8|3I12}
+20i54 N{13|3I12}
+23U14*Borrar_Numero 23>29 23>32
+23i29 F{8|3I12}
+23i32 C{8|3I12}
+26U14*Ayudar
+

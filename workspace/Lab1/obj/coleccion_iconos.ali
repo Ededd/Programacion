@@ -1,0 +1,43 @@
+V "GNAT Lib v2013"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P CE NO ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U coleccion_iconos%s	coleccion_iconos.ads	a0483310 EE OO PK
+W punteros_iconos%s	punteros_iconos.ads	punteros_iconos.ali
+
+D coleccion_iconos.ads	20170227185928 36baa5e4
+D gwindows-drawing_objects.ads  00000000000000 00000000
+D punteros_iconos.ads	20170227185928 96f296f4
+X 1 coleccion_iconos.ads
+2K9*Coleccion_Iconos 28l5 28e21
+7V13*Fich_Fondo_Vacio{string}
+11V13*Fich_Fondo_Marcado{string}
+14U14*Introducir_Icono 14>32
+14s32 Nombre_Fich{string}
+18U14*Obtener_Objeto_Icono 19>8 20<8
+19s8 Nombre_Fich{string}
+20p8 Icono{3|3P9}
+26X4*Icono_Inexistente
+X 3 punteros_iconos.ads
+2K9*Punteros_Iconos 1|1w6 20r20 3|4e20
+3P9*Puntero_Icono(any type) 1|20r36
+

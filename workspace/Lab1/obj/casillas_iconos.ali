@@ -1,0 +1,57 @@
+V "GNAT Lib v2013"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P CE NO ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U casillas_iconos%s	casillas_iconos.ads	879b151f EE OO PK
+W gwindows.colored_control_window%s  gwindows-colored_control_window.ads  gwindows-colored_control_window.ali
+W gwindows.drawing_panels%s  gwindows-drawing_panels.ads  gwindows-drawing_panels.ali
+
+D casillas_iconos.ads	20170227185928 879b151f
+D gwindows-colored_control_window.ads  00000000000000 00000000
+D gwindows-drawing_panels.ads  00000000000000 00000000
+X 1 casillas_iconos.ads
+5K9*Casillas_Iconos 57l5 57e20
+7I9*Casilla<any type> 15r15 25r26 29r25 33r32 37r40 42r39 47r37
+9U14*Crear 10>7 10>13 11>7 11>17 13=7 15<7
+10i7 Fila{positive}
+10i13 Col{positive}
+11i7 Superior{natural}
+11i17 Izquierda{natural}
+13i7 Ventana{any type}
+15i7 C{7I9}
+25V13*Fila{positive} 25>19
+25i19 C{7I9}
+29V13*Col{positive} 29>18
+29i18 C{7I9}
+33V13*Fich_Icono{string} 33>25
+33i25 C{7I9}
+37U14*Dibujar_Icono 37=29 37>49
+37i29 C{7I9}
+37s49 Fich_Icono{string}
+42U14*Deshabilitar 42=28
+42i28 C{7I9}
+47V13*Esta_Habilitado{boolean} 47>30
+47i30 C{7I9}
+50P9 Punt_Icono_Fich(string)
+51I9 Casilla<any type>
+

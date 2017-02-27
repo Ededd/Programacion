@@ -1,0 +1,89 @@
+V "GNAT Lib v2013"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P CE NO ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U tablero.interfaz%s	tablero-interfaz.ads	b9947192 EE OO PK
+W ids_grupo_casillas%s	ids_grupo_casillas.adb	ids_grupo_casillas.ali
+W tablero%s		tablero.adb		tablero.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-finali.ads		20130417131020 52ecdc1b
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-textio.ads		20130417131022 386df5d4
+D casillas.ads		20170208174154 8d6d39c1
+D ids_grupo_casillas.ads  20170208163348 8f5d0139
+D indices.ads		20170208163348 d42b7d02
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D matrices_casillas.ads	20170208163348 5652a531
+D niveles_dificultad.ads  20170227185928 b1764c84
+D numeros.ads		20170208163348 a4214673
+D sudokus.ads		20170227185928 464ad964
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-stoele.ads		20130417131032 facd7d98
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D tablero.ads		20170227185928 cb3c87b4
+D tablero-interfaz.ads	20170227185928 fdf5f71f
+X 7 ids_grupo_casillas.ads
+2K9*Ids_Grupo_Casillas 29e23 26|1w6 26r36
+4R9*Id_Grupo 28e17 26|26r55
+X 8 indices.ads
+1K9*Indices 7e12 26|16r22
+3I12*Indice{positive} 26|16r30
+X 13 numeros.ads
+1K9*Numeros 5e12 26|17r18
+3I12*Numero{positive} 26|17r26
+X 25 tablero.ads
+2K9*Tablero 34e12 26|3r9 57r5
+X 26 tablero-interfaz.ads
+3K17*Interfaz 25|2k9 26|57l13 57e21
+5E9*Tipo_Mensaje 5e45 41r38
+5n26*Error{5E9}
+5n33*Informacion{5E9} 41r54
+7U14*Visualizar 7>26 8>25 9>25
+7s26 Nombre_Jugador{string}
+8s25 Identificador_Sudoku{string}
+9i25 Dificultad_Sudoku{positive}
+15U14*Visualizar_Valor_Inicial 16>7 16>13 17>7
+16i7 Fila{8|3I12}
+16i13 Col{8|3I12}
+17i7 Valor{13|3I12}
+22U14*Comenzar
+26U14*Marcar_Grupo 26>28
+26r28 IG{7|4R9}
+30U14*Visualizar_Etiqueta_Inconsistencias
+34U14*Visualizar_Etiqueta_Errores 35>7
+35i7 Cantidad_Errores{natural}
+40U14*Mostrar_Mensaje 40>31 41>28
+40s31 Mensaje{string}
+41e28 Tipo{5E9}
+47U14*Refrescar
+52U14*Liberar
+

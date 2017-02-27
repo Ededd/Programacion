@@ -1,0 +1,84 @@
+V "GNAT Lib v2013"
+M P W=b
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P CE NO ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U probar_tablero%b	probar_tablero.adb	2ebe212f OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W sudokus%s		sudokus.adb		sudokus.ali
+W tablero%s		tablero.adb		tablero.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-finali.ads		20130417131020 52ecdc1b
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-textio.ads		20130417131022 386df5d4
+D casillas.ads		20170208174154 8d6d39c1
+D ids_grupo_casillas.ads  20170208163348 8f5d0139
+D indices.ads		20170208163348 d42b7d02
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D matrices_casillas.ads	20170208163348 5652a531
+D niveles_dificultad.ads  20170227185928 b1764c84
+D numeros.ads		20170208163348 a4214673
+D probar_tablero.adb	20170227185928 9ba58a2b
+D sudokus.ads		20170227185928 464ad964
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-stoele.ads		20130417131032 facd7d98
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D tablero.ads		20170227185928 cb3c87b4
+X 1 ada.ads
+16K9*Ada 19e8 14|2r6 4r15 8r4 8r32 10r4 13r4 14r4 15r4 16r4 17r4 19r4 22r4
+X 5 a-textio.ads
+49K13*Text_IO 471e16 14|2w10 4r19 8r8 8r36 10r8 13r8 14r8 15r8 16r8 17r8
+. 19r8 22r8
+52P9*File_Type(369R9) 14|4r27
+53n23*In_File{53E9} 14|8r44
+92U14*Open 14|8s16
+98U14*Close 14|10s16
+169U14*Skip_Line 14|17s16
+263U14*Put_Line 14|13s16 14s16 15s16 16s16 19s16 22s16
+X 14 probar_tablero.adb
+3U11*Probar_Tablero 3b11 29l5 29t19
+4p4 F_Prueba{5|52P9} 8m22 8r22 9m18 9r18 10m23 10r23
+5r4 S{15|7R9} 9m28 12r27
+6b4 Fin_Correcto{boolean} 18m33 20r41
+X 15 sudokus.ads
+5K9*Sudokus 14|1w6 5r8 9r4 15|31e12
+7R9*Sudoku 14|5r16 15|30e14
+9U14*Leer 14|9s12
+X 26 tablero.ads
+2K9*Tablero 14|1w15 12r4 18r4 26|34e12
+4U14*Cargar_Sudoku 14|12s12
+7U14*Jugar 14|18s12
+
