@@ -24,6 +24,13 @@
    </documentation_file>
 
    <documentation_file>
+      <name>xmlada/index.html</name>
+      <descr>The XML Library for Ada 4.4.0w documentation</descr>
+      <category>XML/Ada</category>
+      <menu>/Help/XMLAda/The XML Library for Ada 4.4.0w documentation</menu>
+   </documentation_file>
+
+   <documentation_file>
       <name>aws/aws.html</name>
       <descr>Ada Web Server User's Guide</descr>
       <category>AWS</category>
