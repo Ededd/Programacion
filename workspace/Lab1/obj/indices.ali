@@ -1,0 +1,31 @@
+V "GNAT Lib v2013"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P NO ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U indices%s		indices.ads		d42b7d02 EE OO PK
+
+D indices.ads		20170208163348 d42b7d02
+X 1 indices.ads
+1K9*Indices 7l5 7e12
+3I12*Indice{positive} 4r25 4r35 5r28 5r38
+4i4*Num_Filas{3I12}
+5i4*Num_Columnas{3I12}
+

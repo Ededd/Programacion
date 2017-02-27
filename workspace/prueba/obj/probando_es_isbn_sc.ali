@@ -1,0 +1,59 @@
+V "GNAT Lib v2013"
+M P W=b
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P CE NO ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U probando_es_isbn_sc%b	probando_es_isbn_sc.adb	5cce06f6 OO SU KU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W es_isbn_sc%s		es_isbn_sc.ads		es_isbn_sc.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-finali.ads		20130417131020 52ecdc1b
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-textio.ads		20130417131022 386df5d4
+D es_isbn_sc.ads	00000000000000 00000000
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D probando_es_isbn_sc.adb  20170206172322 64a3f322
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-stoele.ads		20130417131032 facd7d98
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-wchcon.ads		20130417131034 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 9|6r6 7r5
+X 5 a-textio.ads
+49K13*Text_IO 471e16 9|6w10 7r9
+166U14*New_Line 9|12s4 14s4 14s14 21s4 21s14 28s4 28s14 35s4 35s14 42s4
+242U14*Put 9|15s4 17s7 19s7 22s4 24s7 26s7 29s4 31s7 33s7 36s5 38s7 40s7
+263U14*Put_Line 9|13s4
+X 9 probando_es_isbn_sc.adb
+9U11*Probando_ES_ISBN_SC 9b11 44l5 44t24
+

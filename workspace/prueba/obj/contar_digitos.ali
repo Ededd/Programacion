@@ -1,0 +1,30 @@
+V "GNAT Lib v2013"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P CE NO ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U contar_digitos%b	contar_digitos.adb	2e1f5e6b OO SU KU
+
+D contar_digitos.adb	20170206171236 2e1f5e6b
+X 1 contar_digitos.adb
+1V10*Contar_Digitos{integer} 1b10 1>26 7l5 7t19
+1i26 Num{integer}
+2i4 I{integer}
+

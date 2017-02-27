@@ -1,0 +1,24 @@
+V "GNAT Lib v2013"
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatA
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U contar_digitos%b	contar_digitos.adb	a4a4b754 NE OO SU KM
+
+D contar_digitos.adb	20170206182312 a4a4b754
+D system.ads		20130417131036 5fc8ae56
+X 1 contar_digitos.adb
+2U11*Contar_Digitos 2b11 2>27 2<44 14l5 14t19
+2i27 Num{integer} 8r13
+2i44 Cont{integer} 13m1
+5i3 Tot{integer} 7m4 11m6 11r11 13r7
+5i8 Aux{integer} 8m4 9r10 10m7 10r12
+

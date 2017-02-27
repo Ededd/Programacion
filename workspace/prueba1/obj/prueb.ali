@@ -1,0 +1,93 @@
+V "GNAT Lib v2013"
+M P W=b
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatA
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U prueba_posicion_valor_ultimo_capicua_de_n_digitos%b  prueb.adb  0964526d NE OO SU KU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W contar_digitos%b	contar_digitos.adb	contar_digitos.ali
+W es_capicua%b		es_capicua.adb		es_capicua.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-except.ads		20130417131018 10fcae55
+D a-finali.ads		20130417131020 52ecdc1b
+D a-inteio.ads		20130417131020 f64b89a4
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-tags.ads		20130417131022 6c0509d0
+D a-textio.ads		20130417131022 386df5d4
+D a-tiinio.ads		20130417131022 aa04e5d6
+D a-unccon.ads		20130417131022 f9eb8f06
+D contar_digitos.adb	20170206182312 a4a4b754
+D es_capicua.adb	20170206182256 00652e14
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D prueb.adb		20170206185124 6383b75d
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-exctab.ads		20130417131028 66e51330
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-soflin.ads		20130417131032 24c8153c
+D s-stache.ads		20130417131032 596fc1b4
+D s-stalib.ads		20130417131032 f78bcf95
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130417131032 afc5dc80
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-traent.ads		20130417131032 5221ee41
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-wchcon.ads		20130417131034 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r19 2r5 2r18
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|45] 15|1w23 2r22
+X 8 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 2r9
+166U14*New_Line 15|60s4 63s4 66s4 72s4 73s4 77s4 80s4 86s4 87s4 91s4 94s4
+. 100s4 101s4
+208U14*Put 15|48s7
+242U14*Put 15|64s4 68s4 70s4 78s4 82s4 84s4 92s4 96s4 98s4
+263U14*Put_Line 15|52s7 62s4 75s4 89s4 106s4 111s4
+X 9 a-tiinio.ads
+65U14*Put 15|50s10[4|18] 69s4[4|18] 71s4[4|18] 83s4[4|18] 85s4[4|18] 97s4[4|18]
+. 99s4[4|18]
+X 11 contar_digitos.adb
+2U11*Contar_Digitos 15|4w6 32s10
+X 12 es_capicua.adb
+2V10*Es_Capicua{boolean} 15|3w6 34s16
+X 15 prueb.adb
+6U11*Prueba_Posicion_Valor_Ultimo_Capicua_De_N_Digitos 6b11 121l5 121t54
+8A9 T_Vector(integer)<integer> 11r71 44r28 55r10
+10U14 Posicion_Valor_Ultimo_Capicua_De_N_Digitos 10b14 11>58 12>58 13<58
+. 14<58 41l8 41t50 67s4 81s4 95s4
+11a58 V{8A9} 31r16 32r25 34r27 35r21
+12i58 N{natural} 33r18
+13i58 Pos{integer} 25m7 36m16
+14i58 Val{integer} 26m7 35m16
+21i7 Num{integer}
+21i11 cont{integer} 27m7 32m30 33r13
+31i11 I{integer} 32r27 34r29 35r23 36r21
+43U14 Escribir 43b14 44>24 53l8 53t16 65s4 79s4 93s4
+44a24 V{8A9} 49r16 50r14
+49i11 I{integer} 50r16
+55a4 V{8A9} 61m4 65r13 67r47 74m4 79r13 81r47 88m4 93r13 95r47
+56i4 Pos{integer} 67m51 69r8 81m51 83r8 95m51 97r8
+57i4 Val{integer} 67m55 71r8 81m55 85r8 95m55 99r8
+

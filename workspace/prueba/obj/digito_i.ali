@@ -1,0 +1,31 @@
+V "GNAT Lib v2013"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P NO ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U digito_i%b		digito_i.adb		9a27a81c OO SU KU
+
+D digito_i.adb		20170206184350 9a27a81c
+X 1 digito_i.adb
+1U11*Digito_I 1b11 2>7 3>7 4<7 11l5 11t13
+2i7 Num{integer}
+3i7 I{integer}
+4i7 Dig_I{integer}
+

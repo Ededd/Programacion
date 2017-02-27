@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<targets>
+  <target model="gnatmake" category="_File_" menu="/_Build/" name="Check _Syntax">
+    <in-toolbar>FALSE</in-toolbar>
+    <icon>gps-syntax-check</icon>
+    <visible>TRUE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_NO_DIALOG</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type />
+    <key />
+    <server>TOOLS_SERVER</server>
+    <command-line>
+      <arg>%gnatmake</arg>
+      <arg>-q</arg>
+      <arg>-c</arg>
+      <arg>-gnats</arg>
+      <arg>-u</arg>
+      <arg>%eL</arg>
+      <arg>-P%PP</arg>
+      <arg>%X</arg>
+      <arg>%fp</arg>
+    </command-line>
+  </target>
+  <target model="gnatmake" category="_File_" menu="/_Build/" name="Check S_emantic">
+    <in-toolbar>TRUE</in-toolbar>
+    <icon>gps-semantic-check</icon>
+    <visible>TRUE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_NO_DIALOG</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type />
+    <key />
+    <server>TOOLS_SERVER</server>
+    <command-line>
+      <arg>%gnatmake</arg>
+      <arg>-q</arg>
+      <arg>-c</arg>
+      <arg>-gnatc</arg>
+      <arg>-u</arg>
+      <arg>%eL</arg>
+      <arg>-P%PP</arg>
+      <arg>%X</arg>
+      <arg>%fp</arg>
+    </command-line>
+  </target>
+  <target model="builder" category="_File_" menu="/_Build/" name="_Compile File">
+    <in-toolbar>TRUE</in-toolbar>
+    <icon>gps-compile</icon>
+    <visible>TRUE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_NO_DIALOG</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type />
+    <key />
+    <server>GPS_SERVER</server>
+    <command-line>
+      <arg>%builder</arg>
+      <arg>-ws</arg>
+      <arg>-c</arg>
+      <arg>-u</arg>
+      <arg>%eL</arg>
+      <arg>-P%PP</arg>
+      <arg>%X</arg>
+      <arg>%fp</arg>
+    </command-line>
+  </target>
+  <target model="builder" category="_Project" menu="/_Build/" name="Build Main">
+    <in-toolbar>TRUE</in-toolbar>
+    <icon>gps-build-main</icon>
+    <visible>TRUE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>TRUE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type>main</target-type>
+    <key />
+    <server>GPS_SERVER</server>
+    <command-line>
+      <arg>%builder</arg>
+      <arg>-d</arg>
+      <arg>%eL</arg>
+      <arg>-P%PP</arg>
+      <arg>%X</arg>
+      <arg>%T</arg>
+    </command-line>
+  </target>
+  <target model="builder" category="_Project" menu="/_Build/" name="_Build All">
+    <in-toolbar>TRUE</in-toolbar>
+    <icon>gps-build-all</icon>
+    <visible>TRUE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type />
+    <key />
+    <server>GPS_SERVER</server>
+    <command-line>
+      <arg>%builder</arg>
+      <arg>-d</arg>
+      <arg>%eL</arg>
+      <arg>-P%PP</arg>
+      <arg>%X</arg>
+    </command-line>
+  </target>
+  <target model="builder" category="_Project" menu="/_Build/" name="_Compile All Sources">
+    <in-toolbar>FALSE</in-toolbar>
+    <icon>gps-build-all</icon>
+    <visible>TRUE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type />
+    <key />
+    <server>GPS_SERVER</server>
+    <command-line>
+      <arg>%builder</arg>
+      <arg>-c</arg>
+      <arg>-u</arg>
+      <arg>-d</arg>
+      <arg>%eL</arg>
+      <arg>-P%PP</arg>
+      <arg>%X</arg>
+    </command-line>
+  </target>
+  <target model="builder" category="_Project" menu="/_Build/" name="Build &lt;current file&gt;">
+    <in-toolbar>FALSE</in-toolbar>
+    <icon>gps-build-main</icon>
+    <visible>TRUE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type />
+    <key />
+    <server>GPS_SERVER</server>
+    <command-line>
+      <arg>%builder</arg>
+      <arg>-d</arg>
+      <arg>%eL</arg>
+      <arg>-P%PP</arg>
+      <arg>%X</arg>
+      <arg>%fp</arg>
+    </command-line>
+  </target>
+  <target model="gprclean" category="C_lean" menu="/_Build/" name="Clean _All">
+    <in-toolbar>TRUE</in-toolbar>
+    <icon>gps-clean</icon>
+    <visible>TRUE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_DIALOG</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type />
+    <key />
+    <server>GPS_SERVER</server>
+    <command-line>
+      <arg>%gprclean</arg>
+      <arg>-r</arg>
+      <arg>%eL</arg>
+      <arg>-P%PP</arg>
+      <arg>%X</arg>
+    </command-line>
+  </target>
+  <target model="gprclean" category="C_lean" menu="/_Build/" name="Clean _Root">
+    <in-toolbar>FALSE</in-toolbar>
+    <icon>gps-clean</icon>
+    <visible>TRUE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_DIALOG</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type />
+    <key />
+    <server>GPS_SERVER</server>
+    <command-line>
+      <arg>%gprclean</arg>
+      <arg>%eL</arg>
+      <arg>-P%PP</arg>
+      <arg>%X</arg>
+    </command-line>
+  </target>
+  <target model="gprclean" category="C_lean" menu="/_Build/" name="Clean _Project">
+    <in-toolbar>FALSE</in-toolbar>
+    <icon>gps-clean</icon>
+    <visible>TRUE</visible>
+    <in-menu>FALSE</in-menu>
+    <in-contextual-menus-for-projects>TRUE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_DIALOG</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type />
+    <key />
+    <server>GPS_SERVER</server>
+    <command-line>
+      <arg>%gprclean</arg>
+      <arg>%eL</arg>
+      <arg>-P%pp</arg>
+      <arg>%X</arg>
+    </command-line>
+  </target>
+  <target model="execute" category="_Run" menu="/_Build/" name="Run _Main">
+    <in-toolbar>TRUE</in-toolbar>
+    <icon>gtk-media-play</icon>
+    <visible>TRUE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>TRUE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type>executable</target-type>
+    <key />
+    <server>GPS_SERVER</server>
+    <command-line>
+      <arg>%E</arg>
+    </command-line>
+  </target>
+  <target model="execute" category="_Run" menu="/_Build/" name="Custom...">
+    <in-toolbar>FALSE</in-toolbar>
+    <icon>gtk-media-play</icon>
+    <visible>TRUE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_DIALOG</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type />
+    <key />
+    <server>GPS_SERVER</server>
+    <command-line>
+      <arg />
+    </command-line>
+  </target>
+  <target model="custom" category="_Project" menu="/_Build/" name="Custom _Build...">
+    <in-toolbar>FALSE</in-toolbar>
+    <icon>gps-custom-build</icon>
+    <visible>TRUE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_DIALOG</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type />
+    <key />
+    <server>GPS_SERVER</server>
+    <command-line>
+      <arg />
+    </command-line>
+  </target>
+</targets>

@@ -1,0 +1,31 @@
+V "GNAT Lib v2013"
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatA
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U digito_de_control%b	digito_de_control.adb	efbda456 NE OO SU KU
+W digito_i%b		digito_i.adb		digito_i.ali
+
+D digito_de_control.adb	20170213183924 31a2f1fd
+D digito_i.adb		20170213183924 de1f55ab
+D system.ads		20130417131036 5fc8ae56
+D s-expint.ads		20130417131028 192336fc
+X 1 digito_de_control.adb
+3U11*Digito_De_Control 3b11 3>30 3<47 20l5 20t22
+3i30 Num{integer} 11r16
+3e47 Dig{character} 15m7 17m7
+7i4 cont{integer} 12m7 12r13 14r7 17r26
+8i4 pos{integer} 11m24 12r18
+10i8 i{integer} 11r21 12r22
+X 2 digito_i.adb
+1U11*Digito_I 1|1w6 11s7
+

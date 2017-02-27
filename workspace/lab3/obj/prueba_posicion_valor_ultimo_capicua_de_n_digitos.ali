@@ -1,0 +1,79 @@
+V "GNAT Lib v2013"
+M P W=b
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatA
+P CE NO ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U prueba_posicion_valor_ultimo_capicua_de_n_digitos%b  prueba_posicion_valor_ultimo_capicua_de_n_digitos.adb  ada5cb2d OO SU KU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W contar_digitos%s	contar_digitos.ads	contar_digitos.ali
+W es_capicua%s		es_capicua.ads		es_capicua.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-finali.ads		20130417131020 52ecdc1b
+D a-inteio.ads		20130417131020 f64b89a4
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-textio.ads		20130417131022 386df5d4
+D a-tiinio.ads		20130417131022 aa04e5d6
+D contar_digitos.ads	00000000000000 00000000
+D es_capicua.ads	00000000000000 00000000
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D prueba_posicion_valor_ultimo_capicua_de_n_digitos.adb  20170206184330 6383b75d
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-stoele.ads		20130417131032 facd7d98
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-wchcon.ads		20130417131034 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 1r19 2r5 2r18
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[7|45] 12|1w23 2r22
+X 6 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 2r9
+166U14*New_Line 12|60s4 63s4 66s4 72s4 73s4 77s4 80s4 86s4 87s4 91s4 94s4
+. 100s4 101s4
+208U14*Put 12|48s7
+242U14*Put 12|64s4 68s4 70s4 78s4 82s4 84s4 92s4 96s4 98s4
+263U14*Put_Line 12|52s7 62s4 75s4 89s4 106s4 111s4
+X 7 a-tiinio.ads
+65U14*Put 12|50s10[3|18] 69s4[3|18] 71s4[3|18] 83s4[3|18] 85s4[3|18] 97s4[3|18]
+. 99s4[3|18]
+X 12 prueba_posicion_valor_ultimo_capicua_de_n_digitos.adb
+6U11*Prueba_Posicion_Valor_Ultimo_Capicua_De_N_Digitos 6b11 121l5 121t54
+8A9 T_Vector(integer)<integer> 11r23 44r14 55r10
+10U14 Posicion_Valor_Ultimo_Capicua_De_N_Digitos 10b14 11>10 12>10 13<10
+. 14<10 41l8 41t50 67s4 81s4 95s4
+11a10 V{8A9} 31r16 34r27 35r21
+12i10 N{natural} 33r18
+13i10 Pos{integer} 25m7 36m16
+14i10 Val{integer} 26m7 35m16
+21i7 Num{integer}
+21i11 cont{integer} 27m7 33r13
+31i11 I{integer} 34r29 35r23 36r21
+43U14 Escribir 43b14 44>10 53l8 53t16 65s4 79s4 93s4
+44a10 V{8A9} 49r16 50r14
+49i11 I{integer} 50r16
+55a4 V{8A9} 61m4 65r13 67r47 74m4 79r13 81r47 88m4 93r13 95r47
+56i4 Pos{integer} 67m51 69r8 81m51 83r8 95m51 97r8
+57i4 Val{integer} 67m55 71r8 81m55 85r8 95m55 99r8
+

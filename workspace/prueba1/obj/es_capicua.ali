@@ -1,0 +1,23 @@
+V "GNAT Lib v2013"
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatA
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U es_capicua%b		es_capicua.adb		00652e14 NE OO SU KU
+
+D es_capicua.adb	20170206182256 00652e14
+D system.ads		20130417131036 5fc8ae56
+X 1 es_capicua.adb
+2V10*Es_Capicua{boolean} 2b10 2>21 13l5 13t15
+2i21 N{integer} 6r18 12r18
+5i4 Reves{integer} 9m7 9r15 12r12
+6i4 Aux{integer} 8r10 9r26 10m7 10r13
+

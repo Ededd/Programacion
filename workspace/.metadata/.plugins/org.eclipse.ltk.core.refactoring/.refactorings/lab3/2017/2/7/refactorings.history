@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from proyecto &apos;lab3&apos;&#x0D;&#x0A;- Proyecto original: &quot;lab3&quot;&#x0D;&#x0A;- Elementos originales:&#x0D;&#x0A;     posicion_valor_ultimo_capicua_de_n_digitos.adb&#x0D;&#x0A;     Prueba_Contar_Capicuas_De_N_Digitos.adb&#x0D;&#x0A;     Prueba_Posicion_Valor_Ultimo_Capicua_De_N_Digitos.adb" description="Suprimir elementos" element1="src/posicion_valor_ultimo_capicua_de_n_digitos.adb" element2="src/Prueba_Contar_Capicuas_De_N_Digitos.adb" element3="src/Prueba_Posicion_Valor_Ultimo_Capicua_De_N_Digitos.adb" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1487179011452" subPackages="false" version="1.0"/>
+</session>
