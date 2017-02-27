@@ -16,9 +16,7 @@ begin
             end if;
          end loop;
          Ada.Text_Io.Skip_Line(Fich);
-         end loop;
-      exception
-            when others => raise error_de_lectura;
+      end loop;
 
 end Leer_Inicial;
 
