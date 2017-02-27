@@ -1,24 +1,31 @@
-V "GNAT Lib v2013"
+V "GNAT Lib v2014"
+A -gnatA
 A -g
 A -g
 A -gnato
 A -gnatwa
 A -gnatQ
 A -gnat05
-A -gnatA
-P ZX
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P NO ZX
 
 RN
 RV NO_IMPLEMENTATION_PRAGMAS
-RV SPARK
+RV NO_ELABORATION_CODE
+RV SPARK_05
 
-U digito_de_control%b	digito_de_control.adb	efbda456 NE OO SU KU
+U digito_de_control%b	digito_de_control.adb	efbda456 OO SU KU
 W digito_i%b		digito_i.adb		digito_i.ali
 
-D digito_de_control.adb	20170213183924 31a2f1fd
-D digito_i.adb		20170213183924 de1f55ab
-D system.ads		20130417131036 5fc8ae56
-D s-expint.ads		20130417131028 192336fc
+D digito_de_control.adb	20170227195930 31a2f1fd digito_de_control%b
+D digito_i.adb		20170227195930 de1f55ab digito_i%b
 X 1 digito_de_control.adb
 3U11*Digito_De_Control 3b11 3>30 3<47 20l5 20t22
 3i30 Num{integer} 11r16
