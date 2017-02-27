@@ -16,7 +16,7 @@ public class ProbarFraccion {
 		//declaración e inicialización de f y g, instancias de la clase Fraccion 
 		//[***]
 		Fraccion f= new fraccion ();
-		Fraccion g=new fraccion();
+		fraccion g=new fraccion();
 		
 		f.getNumerador();
 		

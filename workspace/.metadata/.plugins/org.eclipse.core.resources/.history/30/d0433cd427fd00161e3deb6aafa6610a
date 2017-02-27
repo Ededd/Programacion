@@ -262,4 +262,6 @@ public Fraccion sumar (fraccion otra){
 			denominador = d;
 	}
 
+
+	
 }
