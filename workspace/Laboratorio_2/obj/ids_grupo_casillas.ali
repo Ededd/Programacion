@@ -1,0 +1,47 @@
+V "GNAT Lib v2013"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P NO ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U ids_grupo_casillas%s	ids_grupo_casillas.ads	5b767c3b EE OO PK
+W indices%s		indices.ads		indices.ali
+
+D ids_grupo_casillas.ads  20170207165002 8f5d0139
+D indices.ads		20170207165002 d42b7d02
+X 1 ids_grupo_casillas.ads
+2K9*Ids_Grupo_Casillas 29l5 29e23
+4R9*Id_Grupo 8r51 15r27 19r28 24c9 28e17
+5E9*Tipo_Grupo 5e44 7r28 15r44 26r16
+5n24*Fila{5E9}
+5n30*Columna{5E9}
+5n39*Zona{5E9}
+7V13*Nuevo{4R9} 7>20 8>20
+7e20 TP{5E9}
+8i20 Id{2|3I12}
+15V13*Tipo{5E9} 15>19
+15r19 IG{4R9}
+19V13*Orden{2|3I12} 19>20
+19r20 IG{4R9}
+26e10*Tipo{5E9}
+27i10*Orden{2|3I12}
+X 2 indices.ads
+1K9*Indices 1|1w6 8r28 19r45 27r17 2|7e12
+3I12*Indice{positive} 1|8r36 19r53 27r25
+

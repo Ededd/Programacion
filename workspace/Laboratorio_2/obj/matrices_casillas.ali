@@ -1,0 +1,82 @@
+V "GNAT Lib v2013"
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatA
+P CE NO ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U matrices_casillas%s	matrices_casillas.ads	c54c4010 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W casillas%s		casillas.ads		casillas.ali
+W ids_grupo_casillas%s	ids_grupo_casillas.ads	ids_grupo_casillas.ali
+W indices%s		indices.ads		indices.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-finali.ads		20130417131020 52ecdc1b
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-textio.ads		20130417131022 386df5d4
+D casillas.ads		20170208174132 8d6d39c1
+D ids_grupo_casillas.ads  20170207165002 8f5d0139
+D indices.ads		20170207165002 d42b7d02
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D matrices_casillas.ads	20170209083744 2b3af03e
+D numeros.ads		00000000000000 00000000
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-stoele.ads		20130417131032 facd7d98
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-wchcon.ads		20130417131034 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 11|4r6 9r42 12r39
+X 5 a-textio.ads
+49K13*Text_IO 471e16 11|4w10 9r46 12r43
+52P9*File_Type(369R9) 11|9r54 12r51
+X 6 casillas.ads
+2K9*Casillas 32e16 11|1w6 17r66 20r81 32r61
+4R9*Casilla 31e17 11|17r75 20r90 32r70
+X 7 ids_grupo_casillas.ads
+2K9*Ids_Grupo_Casillas 29e23 11|2w6 23r49
+4R9*Id_Grupo 28e17 11|23r68
+X 8 indices.ads
+1K9*Indices 7e12 11|3w6 17r43 20r57 32r26 32r42
+3I12*Indice{positive} 11|17r51 20r65 32r34 32r50
+X 11 matrices_casillas.ads
+5K9*Matrices_Casillas 33l5 33e22
+7A9*Matriz(6|4R9) 9r73 12r70 17r29 20r40 23r37 32c9
+9U14*Leer_Inicial 9=28 9<65
+9p28 Fich{5|52P9}
+9a65 MC{7A9}
+12U14*Leer_Final 12=26 12<62
+12p26 Fich{5|52P9}
+12a62 MC{7A9}
+17V13*Casilla{6|4R9} 17>22 17>37 17>40
+17a22 MC{7A9}
+17i37 F{8|3I12}
+17i40 C{8|3I12}
+20U14*Copiar_Casilla 20=30 20>48 20>51 20>73
+20a30 M{7A9}
+20i48 F{8|3I12}
+20i51 C{8|3I12}
+20r73 Cas{6|4R9}
+23V13*Hay_Inconsistencias{boolean} 23>34 23>45
+23a34 M{7A9}
+23r45 IG{7|4R9}
+28X4*Error_De_Lectura
+29X4*Numero_Erroneo
+

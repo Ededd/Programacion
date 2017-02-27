@@ -1,0 +1,50 @@
+V "GNAT Lib v2013"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P CE NO ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U casillas%s		casillas.ads		8d6d39c1 EE OO PK
+W numeros%s		numeros.ads		numeros.ali
+
+D casillas.ads		20170208174132 8d6d39c1
+D numeros.ads		00000000000000 00000000
+X 1 casillas.ads
+2K9*Casillas 32l8 32e16
+4R9*Casilla 6r25 9r25 12r25 15r20 18r35 21r44 24r35 28c9 31e17
+6U11*Crear 6<18
+6r18 C{4R9}
+9V10*Esta_Libre{boolean} 9>22
+9r22 C{4R9}
+12V10*Es_Inicial{boolean} 12>22
+12r22 C{4R9}
+15V10*Valor{any type} 15>17
+15r17 C{4R9}
+18U11*Asignar_Valor 18=25 18>48
+18r25 C{4R9}
+18i48 V{any type}
+21U11*Asignar_Valor_Inicial 21=34 21>57
+21r34 C{4R9}
+21i57 V{any type}
+24U11*Quitar_Valor 24=25
+24r25 C{4R9}
+29b7*Libre{boolean}
+29b14*Inicial{boolean}
+30i7*Valor{any type}
+

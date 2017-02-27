@@ -1,0 +1,101 @@
+V "GNAT Lib v2013"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P CE NO ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U tablero%b		tablero.adb		b7a24a42 OO PK
+W casillas%s		casillas.ads		casillas.ali
+W ids_grupo_casillas%s	ids_grupo_casillas.ads	ids_grupo_casillas.ali
+W matrices_casillas%s	matrices_casillas.ads	matrices_casillas.ali
+W tablero%s		tablero.adb		tablero.ali
+W tablero.interfaz%s	tablero-interfaz.adb	tablero-interfaz.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-finali.ads		20130417131020 52ecdc1b
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-textio.ads		20130417131022 386df5d4
+D casillas.ads		00000000000000 00000000
+D ids_grupo_casillas.ads  00000000000000 00000000
+D indices.ads		00000000000000 00000000
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D matrices_casillas.ads	00000000000000 00000000
+D niveles_dificultad.ads  20170208143306 b1764c84
+D numeros.ads		00000000000000 00000000
+D sudokus.ads		20170209164152 464ad964
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-stoele.ads		20130417131032 facd7d98
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D tablero.ads		20170209170758 cb3c87b4
+D tablero.adb		20170227182830 816b3ae9
+D tablero-interfaz.ads	20170208143306 fdf5f71f
+X 12 niveles_dificultad.ads
+3I12*Nivel{positive}
+X 14 sudokus.ads
+5K9*Sudokus 31e12 25|1w6 4r34 26|5r19 7r35 9r7 14r46 14r84 17r51 20r107 42r147
+7R9*Sudoku 30e14 25|4r42 26|5r27 7r43
+12V13*Identificador{string} 26|14s54
+15V13*Dificultad{12|3I12} 26|14s92
+19V13*Matriz{any type} 26|17r59 20r115 42r155
+22U14*Copiar 26|9s15
+X 25 tablero.ads
+2K9*Tablero 34l5 34e12 26|1r6 2b14 32r10
+4U14*Cargar_Sudoku 4>28 26|7b14 10l8 10t21
+4r28 S{14|7R9} 26|7b29 9r37
+7U14*Jugar 7>21 7<48 26|12b14 33l8 33t13
+7s21 Nombre_Jugador{string} 26|12b21 14r30
+7b48 Fin_Correcto{boolean} 26|12b48 26m13 29m13
+17V13*Solucion_Correcta{boolean} 26|25s13 35b13 56l44 56t61
+20U14*Anotar_Numero 20>29 20>32 20>54
+20i29 F{any type}
+20i32 C{any type}
+20i54 N{any type}
+23U14*Borrar_Numero 23>29 23>32
+23i29 F{any type}
+23i32 C{any type}
+26U14*Ayudar
+X 26 tablero.adb
+4i4 Tablero_De_Juego{any type} 41r66 42r77
+5r4 Sudoku_Actual{14|7R9} 9m22 14r68 14r103 17r66 20r122 42r162
+15i14 fila{any type} 17r82 20r138
+16i17 columna{any type} 17r88 20r144
+36i7 Contador{integer}
+37i7 Cas_Tab{any type} 42m40
+37i16 Cas_Sud{any type} 42m110
+39i11 Fila{any type} 41r84 42r95 42r177
+40i14 Columna{any type} 41r90 42r101 42r182
+X 27 tablero-interfaz.ads
+3K17*Interfaz 26|1w14 14r10 20r19 24r10 27r13 30r13 30r55 32r18 27|57e21
+5n26*Error{5E9} 26|30r64
+7U14*Visualizar 26|14s19
+15U14*Visualizar_Valor_Inicial 26|20s28
+22U14*Comenzar 26|24s19
+40U14*Mostrar_Mensaje 26|27s22 30s22
+52U14*Liberar 26|32s27
+

@@ -1,0 +1,53 @@
+V "GNAT Lib v2013"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P NO ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U palabras%s		palabras.ads		d169701f EE OO PK
+
+D palabras.ads		20170207165002 d169701f
+X 1 palabras.ads
+1K9*Palabras 54l5 54e13
+3P9*Palabra(string) 5r28 10r23 16r26 22r26 28r26 34r28 34r44 38r30 38r43
+. 44r34 53c9
+5U14*Crear 5<21 5>37
+5p21 P{3P9}
+5s37 S{string}
+10V13*Valor{string} 10>20
+10p20 P{3P9}
+16V13*Longitud{positive} 16>23
+16p23 P{3P9}
+22V14*"<"{boolean} 22>18 22>22
+22p18 P1{3P9}
+22p22 P2{3P9}
+28V14*"="{boolean} 28>18 28>22
+28p18 P1{3P9}
+28p22 P2{3P9}
+34V13*Identidad{3P9} 34>24
+34p24 P1{3P9}
+38U14*Copiar 38<22 38>39
+38p22 P1{3P9}
+38p39 P2{3P9}
+44U14*Liberar 44=23
+44p23 P1{3P9}
+50X4*Sin_Inicializar
+
