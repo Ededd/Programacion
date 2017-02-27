@@ -1,74 +1,71 @@
-V "GNAT Lib v2013"
+V "GNAT Lib v2014"
 M P W=b
+A -gnatA
 A -g
 A -g
 A -gnato
 A -gnatwa
 A -gnatQ
 A -gnat05
-A -gnatA
-P ZX
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P NO ZX
 
 RN
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
-RV SPARK
+RV NO_ELABORATION_CODE
+RV SPARK_05
 
-U probando_contar_digitos%b  probando_contar_digitos.adb  14b7b0bf NE OO SU KU
+U probando_contar_digitos%b  probando_contar_digitos.adb  14b7b0bf OO SU KU
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W contar_digitos%b	contar_digitos.adb	contar_digitos.ali
-W system.exp_int%s	s-expint.adb		s-expint.ali
 
-D ada.ads		20130417131022 3ffc8e18
-D a-except.ads		20130417131018 10fcae55
-D a-finali.ads		20130417131020 52ecdc1b
-D a-inteio.ads		20130417131020 f64b89a4
-D a-ioexce.ads		20130417131020 8b9de6cd
-D a-stream.ads		20130417131020 2ca4ee37
-D a-tags.ads		20130417131022 6c0509d0
-D a-textio.ads		20130417131022 386df5d4
-D a-tiinio.ads		20130417131022 aa04e5d6
-D a-unccon.ads		20130417131022 f9eb8f06
-D contar_digitos.adb	20170213174538 22e7efc0
-D interfac.ads		20130417131026 cb4a8015
-D i-cstrea.ads		20130417131026 8128536b
-D probando_contar_digitos.adb  20170213173958 f876230f
-D system.ads		20130417131036 5fc8ae56
-D s-crtl.ads		20130417131028 dfcfca61
-D s-exctab.ads		20130417131028 66e51330
-D s-expint.ads		20130417131028 192336fc
-D s-ficobl.ads		20130417131028 55a71d43
-D s-finmas.ads		20130417131028 b95bb341
-D s-finroo.ads		20130417131028 4ff27390
-D s-parame.ads		20130417131032 b6e20cc0
-D s-pooglo.ads		20130417131032 542f33d0
-D s-soflin.ads		20130417131032 24c8153c
-D s-stache.ads		20130417131032 596fc1b4
-D s-stalib.ads		20130417131032 f78bcf95
-D s-stoele.ads		20130417131032 facd7d98
-D s-stoele.adb		20130417131032 afc5dc80
-D s-stopoo.ads		20130417131032 7b8fbeee
-D s-traent.ads		20130417131032 5221ee41
-D s-unstyp.ads		20130417131034 6ae15c76
-D s-wchcon.ads		20130417131034 bfeb2e3d
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-finali.ads		20140406181358 69f99942 ada.finalization%s
+D a-inteio.ads		20140406181358 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20140406181354 1a984740 ada.streams%s
+D a-textio.ads		20140406181358 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140406181358 aa04e5d6 ada.text_io.integer_io%s
+D contar_digitos.adb	20170227195930 22e7efc0 contar_digitos%b
+D interfac.ads		20140406181358 69adb1b9 interfaces%s
+D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
+D probando_contar_digitos.adb  20170227195930 f876230f probando_contar_digitos%b
+D system.ads		20140406181358 5fc8ae56 system%s
+D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181358 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181356 542f33d0 system.pool_global%s
+D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
+D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 19e8 14|8r6 8r19 9r5 9r18
-X 4 a-inteio.ads
-18K13*Integer_Text_IO[9|45] 14|8w23 9r22
-X 8 a-textio.ads
-49K13*Text_IO 471e16 14|8w10 9r9
-166U14*New_Line 14|15s4 16s58 24s7 30s4 33s4 35s4
-242U14*Put 14|18s7 20s7 22s7 23s36 28s4 29s4 29s46 31s4 32s4 32s46 34s4 34s70
+16K9*Ada 19e8 11|8r6 8r19 9r5 9r18
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[7|46] 11|8w23 9r22
+X 6 a-textio.ads
+49K13*Text_IO 471e16 11|8w10 9r9
+166U14*New_Line 11|15s4 16s58 24s7 30s4 33s4 35s4
+242U14*Put 11|18s7 20s7 22s7 23s36 28s4 29s4 29s46 31s4 32s4 32s46 34s4 34s70
 . 36s4
-263U14*Put_Line 14|16s4
-X 9 a-tiinio.ads
-55U14*Get 14|28s49[4|18] 31s49[4|18]
-65U14*Put 14|19s7[4|18] 21s7[4|18] 23s7[4|18] 29s19[4|18] 32s19[4|18] 34s43[4|18]
-X 11 contar_digitos.adb
-1V10*Contar_Digitos{integer} 14|6w6 23s11 29s23 32s23 34s47
-X 14 probando_contar_digitos.adb
+263U14*Put_Line 11|16s4
+X 7 a-tiinio.ads
+56U14*Get 11|28s49[3|18] 31s49[3|18]
+66U14*Put 11|19s7[3|18] 21s7[3|18] 23s7[3|18] 29s19[3|18] 32s19[3|18] 34s43[3|18]
+X 8 contar_digitos.adb
+1V10*Contar_Digitos{integer} 11|6w6 23s11 29s23 32s23 34s47
+X 11 probando_contar_digitos.adb
 11U11*Probando_Contar_Digitos 11b11 38l5 38t28
 12i4 Num{integer} 21r11 23r26 25m7 25r13
 13i4 N{integer} 28m53 29r38 31m53 32r38
