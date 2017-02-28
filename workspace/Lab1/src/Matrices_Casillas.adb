@@ -1,3 +1,4 @@
+with Numeros;
 package body Matrices_Casillas is
 
    procedure Leer_Inicial (Fich: in out Ada.Text_IO.File_Type; MC: out Matriz) is
