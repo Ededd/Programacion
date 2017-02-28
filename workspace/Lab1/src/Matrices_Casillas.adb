@@ -4,7 +4,7 @@ package body Matrices_Casillas is
    procedure Leer_Inicial (Fich: in out Ada.Text_IO.File_Type; MC: out Matriz) is
       Cifra:string(1..1);
       C:Casillas.Casilla;
-begin
+   begin
    for Fila in Indices.Indice loop
       for Columna in Indices.Indice loop
          Ada.Text_IO.Get(Fich,Cifra);
@@ -16,11 +16,11 @@ begin
                MC(Fila, Columna) := C;
             end if;
          end if;
-         Ada.Text_Io.Skip_Line(Fich);
+      end loop;
+      Ada.Text_Io.Skip_Line(Fich);
+   end loop;
       exception
-               when others => raise error_de_lectura;
-                  end loop;
-               end loop;
+         when others => raise error_de_lectura;
       end Leer_Inicial;
 procedure Leer_Final (Fich : in out Ada.Text_IO.File_Type;
                       MC: out Matriz) is

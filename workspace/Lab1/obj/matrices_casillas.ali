@@ -17,7 +17,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U matrices_casillas%b	matrices_casillas.adb	c0816489 OO PK
+U matrices_casillas%b	matrices_casillas.adb	bc8830ec OO PK
 W numeros%s		numeros.ads		numeros.ali
 
 D ada.ads		20140406181354 3ffc8e18 ada%s
@@ -31,7 +31,7 @@ D indices.ads		20170227195930 d42b7d02 indices%s
 D interfac.ads		20140406181358 69adb1b9 interfaces%s
 D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
 D matrices_casillas.ads	20170228113640 2b3af03e matrices_casillas%s
-D matrices_casillas.adb	20170228113958 4f9ad2c4 matrices_casillas%b
+D matrices_casillas.adb	20170228114212 339386a1 matrices_casillas%b
 D numeros.ads		20170227195930 a4214673 numeros%s
 D system.ads		20140406181358 5fc8ae56 system%s
 D s-crtl.ads		20140406181356 2c012597 system.crtl%s
@@ -44,11 +44,11 @@ D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
 D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
 D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 19e8 11|4r6 9r42 12r39 12|4r41 10r10 19r10 25r37 30r10 39r7
+16K9*Ada 19e8 11|4r6 9r42 12r39 12|4r41 10r10 20r7 25r37 30r10 39r7
 X 5 a-textio.ads
-49K13*Text_IO 471e16 11|4w10 9r46 12r43 12|4r45 10r14 19r14 25r41 30r14 39r11
+49K13*Text_IO 471e16 11|4w10 9r46 12r43 12|4r45 10r14 20r11 25r41 30r14 39r11
 52P9*File_Type 11|9r54 12r51 12|4r53 25r49
-168U14*Skip_Line 12|19s22 39s19
+168U14*Skip_Line 12|20s19 39s19
 239U14*Get 12|10s22 30s22
 X 6 casillas.ads
 2K9*Casillas 32e16 11|1w6 17r66 20r81 32r61 12|6r9 11r10 13r13 15r18 31r10
@@ -77,7 +77,7 @@ X 11 matrices_casillas.ads
 7A9*Matriz(6|4R9) 9r73 12r70 17r29 20r40 23r37 32c9 12|4r72 26r31 46r26 52r37
 . 59r34
 9U14*Leer_Inicial 9=28 9<65 12|4b14 24l11 24t23
-9p28 Fich{5|52P9} 12|4b28 10r26 19r32
+9p28 Fich{5|52P9} 12|4b28 10r26 20r29
 9a65 MC{7A9} 12|4b64 16m16
 12U14*Leer_Final 12=26 12<62 12|25b11 44l5 44t15
 12p26 Fich{5|52P9} 12|25b23 30r26 39r29
@@ -94,7 +94,7 @@ X 11 matrices_casillas.ads
 23V13*Hay_Inconsistencias{boolean} 23>34 23>45 12|59b10 112l5 112t24
 23a34 M{7A9} 12|59b31 66r37 67r38 75r37 76r38 90r40 91r41
 23r45 IG{7|4R9} 12|59b42 98r33 99r77 100r83 101r77
-28X4*Error_De_Lectura 12|43r25
+28X4*Error_De_Lectura 12|23r31 43r25
 29X4*Numero_Erroneo 12|14r56 34r53
 X 12 matrices_casillas.adb
 5a7 Cifra{string} 10m31 12r13 14r21 15r65
