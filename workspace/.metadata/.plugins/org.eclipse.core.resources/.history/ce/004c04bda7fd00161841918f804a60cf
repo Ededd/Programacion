@@ -38,21 +38,5 @@ package body Tablero is
                               else
                               return false;
                                        end if;
-   end Solucion_Correcta;
-
-   procedure Anotar_Numero (F, C: in Indices.Indice; N: in Numeros.Numero) is
-   begin
-      null;
-   end Anotar_numero;
-
-   procedure Borrar_Numero (F, C: in Indices.Indice) is
-   begin
-      null;
-   end boorrar_numero;
-
-   procedure ayudar is
-   begin
-      null;
-   end ayudar;
-
+                                       end Solucion_Correcta;
 end tablero;
