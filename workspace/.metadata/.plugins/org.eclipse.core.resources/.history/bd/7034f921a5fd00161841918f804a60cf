@@ -43,8 +43,8 @@ public class Fraccion {
 	 */
 	//[***]
 	public Fraccion (long n, long d){
-		numerador=n;
-		denominador=d;
+	numerador=n;
+	denominador=d;
 	}
 
 	
@@ -56,10 +56,10 @@ public class Fraccion {
 	 * @param n numerador, entero
 	 */
 	//[***]
-	public Fraccion (long n){
-		numerador=n;
-		denominador=1L;
-	}
+public Fraccion (long n){
+numerador=n;
+denominador=1L;
+}
 	
 	
 	
@@ -71,9 +71,9 @@ public class Fraccion {
 	 * @return el numerador de la Fracción  
 	 */
 	//[***]
-	public long getNumerador (){
-		return numerador;
-	}
+public long getNumerador (){
+	return numerador;
+}
 
 	
 	
@@ -83,9 +83,9 @@ public class Fraccion {
 	 * @return el denominador  de la Fracción  
 	 */
 	//[***]
-	public long getDenominador () {
-		return denominador;
-	}
+public long getDenominador () {
+	return denominador;
+}
 
 	
 	
@@ -99,12 +99,12 @@ public class Fraccion {
 	 * @return Fraccion simplificada resultante de sumar el objeto y otra,   
 	 */
 	//[***]
-	public Fraccion sumar (fraccion otra){
-		Fraccion sum=new Fraccion();
-		sum.numerador=numerador*otra.denominador+denominador*otra.numerador;
-		sum.denominador=denominador*otra.denominador;
-		return sum.simplificar();
-	}
+public Fraccion sumar (fraccion otra){
+	Fraccion sum=new Fraccion();
+	sum.numerador=numerador*otra.denominador+denominador*otra.numerador;
+	sum.denominador=denominador*otra.denominador;
+	return sum.simplificar();
+}
 
 	
 	
