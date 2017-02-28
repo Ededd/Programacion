@@ -1,0 +1,3 @@
+gcc -c -g -g -gnato -gnatwa -gnatQ -gnat05 -I- -gnatA C:\Users\PC\SparkleShare\Programacion\workspace\Lab1\src\Sudokus.ads
+cannot generate code for file sudokus.ads (package spec)
+gnatmake: "C:\Users\PC\SparkleShare\Programacion\workspace\Lab1\src\Sudokus.ads" compilation error

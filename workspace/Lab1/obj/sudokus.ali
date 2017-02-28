@@ -1,20 +1,12 @@
 V "GNAT Lib v2014"
-A -gnatA
 A -g
 A -g
 A -gnato
 A -gnatwa
 A -gnatQ
 A -gnat05
-A -gnatc
-A -gnatQ
-A -gnatI
-A -gnatws
-A -gnatyN
-A -gnatVn
-A -mtune=generic
-A -march=pentiumpro
-P CE NO ZX
+A -gnatA
+P NO ZX
 
 RN
 RV NO_IO
@@ -22,17 +14,20 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U sudokus%s		sudokus.ads		9903c505 EE OO PK
+U sudokus%s		sudokus.ads		8781c0d1 EE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W matrices_casillas%s	matrices_casillas.adb	matrices_casillas.ali
 W niveles_dificultad%s	niveles_dificultad.ads	niveles_dificultad.ali
 
 D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
 D a-finali.ads		20140406181358 69f99942 ada.finalization%s
 D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
 D a-stream.ads		20140406181354 1a984740 ada.streams%s
+D a-tags.ads		20140406181356 dc4d0634 ada.tags%s
 D a-textio.ads		20140406181358 386df5d4 ada.text_io%s
+D a-unccon.ads		20140406181358 f9eb8f06 ada.unchecked_conversion%s
 D casillas.ads		20170227195930 8d6d39c1 casillas%s
 D ids_grupo_casillas.ads  20170227195930 8f5d0139 ids_grupo_casillas%s
 D indices.ads		20170227195930 d42b7d02 indices%s
@@ -41,44 +36,51 @@ D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
 D matrices_casillas.ads	20170227195930 5652a531 matrices_casillas%s
 D niveles_dificultad.ads  20170227195930 b1764c84 niveles_dificultad%s
 D numeros.ads		20170227195930 a4214673 numeros%s
-D sudokus.ads		20170227195930 464ad964 sudokus%s
+D sudokus.ads		20170228110328 58c8dcb0 sudokus%s
 D system.ads		20140406181358 5fc8ae56 system%s
 D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
 D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s
 D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
 D s-finroo.ads		20140406181358 4ff27390 system.finalization_root%s
 D s-parame.ads		20140406181358 06da98b2 system.parameters%s
 D s-pooglo.ads		20140406181356 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181354 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181354 fa0a3617 system.standard_library%s
 D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181354 ed88f8fb system.storage_elements%b
 D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
+D s-traent.ads		20140406181354 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
 D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 19e8 14|1r6 9r33
-X 5 a-textio.ads
-49K13*Text_IO 471e16 14|1w10 9r37
-52P9*File_Type 14|9r45
-X 11 matrices_casillas.ads
-5K9*Matrices_Casillas 30e22 14|2w6 2r29 19r42 29r26
-7A9*Matriz(6|4R9) 14|19r60 29r44
-X 12 niveles_dificultad.ads
-1K9*Niveles_Dificultad 5e23 14|1w19 16r32 28r30
-3I12*Nivel{positive} 14|16r51 28r49
-X 14 sudokus.ads
+16K9*Ada 19e8 17|1r6 9r33
+X 7 a-textio.ads
+49K13*Text_IO 471e16 17|1w10 9r37
+52P9*File_Type 17|9r45
+X 14 matrices_casillas.ads
+5K9*Matrices_Casillas 30e22 17|2w6 2r29 19r42 29r26
+7A9*Matriz(9|4R9) 17|19r60 29r44
+X 15 niveles_dificultad.ads
+1K9*Niveles_Dificultad 5e23 17|1w19 16r32 28r30
+3I12*Nivel{positive} 17|16r51 28r49
+X 17 sudokus.ads
 5K9*Sudokus 26E9 31l5 31e12
 7R9*Sudoku 9r63 12r34 15r31 19r27 22r30 22r45 26c9 30e14
 9U14*Leer 9=20 9<56
-9p20 Fich{5|52P9}
+9p20 Fich{7|52P9}
 9r56 S{7R9}
 12V13*Identificador{string} 12>28
 12r28 S{7R9}
-15V13*Dificultad{12|3I12} 15>25
+15V13*Dificultad{15|3I12} 15>25
 15r25 S{7R9}
-19V13*Matriz{11|7A9} 19>21
+19V13*Matriz{14|7A9} 19>21
 19r21 S{7R9}
 22U14*Copiar 22<22 22>38
 22r22 S1{7R9}
 22r38 S2{7R9}
 27a7*Identificacion{string}
-28i7*Niveles_De_Dificultad{12|3I12}
-29a7*Valores_Numericos{11|7A9}
+28i7*Niveles_De_Dificultad{15|3I12}
+29a7*Valores_Numericos{14|7A9}
 
