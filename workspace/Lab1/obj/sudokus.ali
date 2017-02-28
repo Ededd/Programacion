@@ -1,4 +1,4 @@
-V "GNAT Lib v2013"
+V "GNAT Lib v2014"
 A -gnatA
 A -g
 A -g
@@ -20,7 +20,7 @@ RN
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
-RV SPARK
+RV SPARK_05
 
 U sudokus%s		sudokus.ads		9903c505 EE OO PK
 W ada%s			ada.ads			ada.ali
@@ -28,35 +28,35 @@ W ada.text_io%s		a-textio.adb		a-textio.ali
 W matrices_casillas%s	matrices_casillas.adb	matrices_casillas.ali
 W niveles_dificultad%s	niveles_dificultad.ads	niveles_dificultad.ali
 
-D ada.ads		20130417131022 3ffc8e18
-D a-finali.ads		20130417131020 52ecdc1b
-D a-ioexce.ads		20130417131020 8b9de6cd
-D a-stream.ads		20130417131020 2ca4ee37
-D a-textio.ads		20130417131022 386df5d4
-D casillas.ads		20170208174154 8d6d39c1
-D ids_grupo_casillas.ads  20170208163348 8f5d0139
-D indices.ads		20170208163348 d42b7d02
-D interfac.ads		20130417131026 cb4a8015
-D i-cstrea.ads		20130417131026 8128536b
-D matrices_casillas.ads	20170208163348 5652a531
-D niveles_dificultad.ads  20170227185928 b1764c84
-D numeros.ads		20170208163348 a4214673
-D sudokus.ads		20170227185928 464ad964
-D system.ads		20130417131036 5fc8ae56
-D s-crtl.ads		20130417131028 dfcfca61
-D s-ficobl.ads		20130417131028 55a71d43
-D s-finmas.ads		20130417131028 b95bb341
-D s-finroo.ads		20130417131028 4ff27390
-D s-parame.ads		20130417131032 b6e20cc0
-D s-pooglo.ads		20130417131032 542f33d0
-D s-stoele.ads		20130417131032 facd7d98
-D s-stopoo.ads		20130417131032 7b8fbeee
-D s-wchcon.ads		20130417131034 bfeb2e3d
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-finali.ads		20140406181358 69f99942 ada.finalization%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20140406181354 1a984740 ada.streams%s
+D a-textio.ads		20140406181358 386df5d4 ada.text_io%s
+D casillas.ads		20170227195930 8d6d39c1 casillas%s
+D ids_grupo_casillas.ads  20170227195930 8f5d0139 ids_grupo_casillas%s
+D indices.ads		20170227195930 d42b7d02 indices%s
+D interfac.ads		20140406181358 69adb1b9 interfaces%s
+D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
+D matrices_casillas.ads	20170227195930 5652a531 matrices_casillas%s
+D niveles_dificultad.ads  20170227195930 b1764c84 niveles_dificultad%s
+D numeros.ads		20170227195930 a4214673 numeros%s
+D sudokus.ads		20170227195930 464ad964 sudokus%s
+D system.ads		20140406181358 5fc8ae56 system%s
+D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181358 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181356 542f33d0 system.pool_global%s
+D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
+D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
 X 1 ada.ads
 16K9*Ada 19e8 14|1r6 9r33
 X 5 a-textio.ads
 49K13*Text_IO 471e16 14|1w10 9r37
-52P9*File_Type(369R9) 14|9r45
+52P9*File_Type 14|9r45
 X 11 matrices_casillas.ads
 5K9*Matrices_Casillas 30e22 14|2w6 2r29 19r42 29r26
 7A9*Matriz(6|4R9) 14|19r60 29r44
@@ -64,7 +64,7 @@ X 12 niveles_dificultad.ads
 1K9*Niveles_Dificultad 5e23 14|1w19 16r32 28r30
 3I12*Nivel{positive} 14|16r51 28r49
 X 14 sudokus.ads
-5K9*Sudokus 31l5 31e12
+5K9*Sudokus 26E9 31l5 31e12
 7R9*Sudoku 9r63 12r34 15r31 19r27 22r30 22r45 26c9 30e14
 9U14*Leer 9=20 9<56
 9p20 Fich{5|52P9}
