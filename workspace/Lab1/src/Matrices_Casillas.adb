@@ -1,6 +1,6 @@
 package body Matrices_Casillas is
 
-   procedure Leer_Inicial (Fich: in out Ada.Text_IO.File_Type; MC: out Matriz) is;
+   procedure Leer_Inicial (Fich: in out Ada.Text_IO.File_Type; MC: out Matriz) is
       Cifra:string(1..1);
       C:Casillas.Casilla;
 begin
