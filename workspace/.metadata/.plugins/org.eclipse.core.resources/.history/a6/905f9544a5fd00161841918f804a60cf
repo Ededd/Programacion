@@ -31,10 +31,7 @@ public class Fraccion {
 	 */
 	//[***]
 	
-	public Fraccion (){
-		numerador = 0;
-		denominador = 1;
-	}
+
 	
 	
 
@@ -103,7 +100,7 @@ public class Fraccion {
 	 */
 	//[***]
 	public Fraccion sumar (fraccion otra){
-		Fraccion sum = new Fraccion();
+		Fraccion sum=new Fraccion();
 		sum.numerador=numerador*otra.denominador+denominador*otra.numerador;
 		sum.denominador=denominador*otra.denominador;
 		return sum.simplificar();
