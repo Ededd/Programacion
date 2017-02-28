@@ -32,7 +32,7 @@ D matrices_casillas.ads	20170227195930 5652a531 matrices_casillas%s
 D niveles_dificultad.ads  20170227195930 b1764c84 niveles_dificultad%s
 D numeros.ads		20170227195930 a4214673 numeros%s
 D sudokus.ads		20170228113022 ec078c02 sudokus%s
-D sudokus.adb		20170228113022 544b5e77 sudokus%b
+D sudokus.adb		20170228113050 544b5e77 sudokus%b
 D system.ads		20140406181358 5fc8ae56 system%s
 D s-crtl.ads		20140406181356 2c012597 system.crtl%s
 D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s

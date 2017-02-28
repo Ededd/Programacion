@@ -38,5 +38,5 @@ package body Sudokus is
       begin
          S1.Identificacion:= S2.Identificacion;
          S1.Niveles_De_Dificultad:= S2.Niveles_De_Dificultad;
-         S1.matriz := S2.matriz;
+         S1.Matriz := S2.Matriz;
          end Copiar;
