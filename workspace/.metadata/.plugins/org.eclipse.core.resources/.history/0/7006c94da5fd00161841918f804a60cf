@@ -102,7 +102,7 @@ public class Fraccion {
 	 * @return Fraccion simplificada resultante de sumar el objeto y otra,   
 	 */
 	//[***]
-	public Fraccion sumar (Fraccion otra){
+	public Fraccion sumar (fraccion otra){
 		Fraccion sum = new Fraccion();
 		sum.numerador=numerador*otra.denominador+denominador*otra.numerador;
 		sum.denominador=denominador*otra.denominador;
