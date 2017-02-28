@@ -73,3 +73,14 @@ coleccion_iconos.ads:1:06: "Coleccion_Iconos (spec)" depends on "Punteros_Iconos
 coleccion_iconos.ads:1:06: "Punteros_Iconos (spec)" depends on "Gwindows (spec)"
 punteros_iconos.ads:3:33: "GWindows" is undefined (more references follow)
 gprbuild: *** compilation phase failed
+coleccion_iconos.ads:1:06: file "gwindows.ads" not found
+coleccion_iconos.ads:1:06: "Coleccion_Iconos (spec)" depends on "Punteros_Iconos (spec)"
+coleccion_iconos.ads:1:06: "Punteros_Iconos (spec)" depends on "Gwindows (spec)"
+punteros_iconos.ads:3:33: "GWindows" is undefined
+gprbuild: *** compilation phase failed
+probar_matrices_casillas.adb:119:26: "Error_de_Lectura" not declared in "Matrices_Casillas"
+probar_matrices_casillas.adb:121:26: "Numero_Erroneo" not declared in "Matrices_Casillas"
+gprbuild: *** compilation phase failed
+punteros_iconos.ads:1:06: file "gwindows.ads" not found
+punteros_iconos.ads:3:33: "GWindows" is undefined
+gprbuild: *** compilation phase failed

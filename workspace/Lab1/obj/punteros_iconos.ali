@@ -1,4 +1,4 @@
-V "GNAT Lib v2013"
+V "GNAT Lib v2014"
 A -gnatA
 A -g
 A -g
@@ -20,13 +20,13 @@ RN
 RV NO_STANDARD_STORAGE_POOLS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
-RV SPARK
+RV SPARK_05
 
 U punteros_iconos%s	punteros_iconos.ads	96f296f4 EE OO PK
 W gwindows.drawing_objects%s  gwindows-drawing_objects.ads  gwindows-drawing_objects.ali
 
 D gwindows-drawing_objects.ads  00000000000000 00000000
-D punteros_iconos.ads	20170227185928 96f296f4
+D punteros_iconos.ads	20170227195930 96f296f4 punteros_iconos%s
 X 2 punteros_iconos.ads
 2K9*Punteros_Iconos 4l5 4e20
 3P9*Puntero_Icono(any type)

@@ -1,4 +1,4 @@
-V "GNAT Lib v2013"
+V "GNAT Lib v2014"
 A -gnatA
 A -g
 A -g
@@ -22,7 +22,7 @@ RV NO_ELABORATION_CODE
 
 U niveles_dificultad%s	niveles_dificultad.ads	b1764c84 EE OO PK
 
-D niveles_dificultad.ads  20170227185928 b1764c84
+D niveles_dificultad.ads  20170227195930 b1764c84 niveles_dificultad%s
 X 1 niveles_dificultad.ads
 1K9*Niveles_Dificultad 5l5 5e23
 3I12*Nivel{positive}
