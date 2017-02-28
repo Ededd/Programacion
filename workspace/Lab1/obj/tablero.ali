@@ -53,7 +53,7 @@ D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
 D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
 D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
 D tablero.ads		20170227195930 cb3c87b4 tablero%s
-D tablero.adb		20170228111522 25f7af11 tablero%b
+D tablero.adb		20170228111608 25f7af11 tablero%b
 D tablero-interfaz.ads	20170227195930 fdf5f71f tablero.interfaz%s
 X 6 casillas.ads
 2K9*Casillas 32e16 26|1w43 22r25 26r20 28r43 28r69

@@ -13,7 +13,7 @@ package body Tablero is
       begin
         Interfaz.Visualizar(Nombre_Jugador, sudokus.Identificador(sudoku_actual), sudokus.Dificultad(sudoku_actual));
       -- end if;
-         fin_correcto = false; -- para que saliese algo en fin correcto
+         fin_correcto = false;
         Tablero.Interfaz.Liberar;
    end Jugar;
 
