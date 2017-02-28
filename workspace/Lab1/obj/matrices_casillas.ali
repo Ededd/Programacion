@@ -17,7 +17,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U matrices_casillas%b	matrices_casillas.adb	c77c7dfe OO PK
+U matrices_casillas%b	matrices_casillas.adb	08d72f72 OO PK
 
 D ada.ads		20140406181354 3ffc8e18 ada%s
 D a-finali.ads		20140406181358 69f99942 ada.finalization%s
@@ -30,7 +30,7 @@ D indices.ads		20170227195930 d42b7d02 indices%s
 D interfac.ads		20140406181358 69adb1b9 interfaces%s
 D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
 D matrices_casillas.ads	20170227195930 5652a531 matrices_casillas%s
-D matrices_casillas.adb	20170228113550 912ed8cf matrices_casillas%b
+D matrices_casillas.adb	20170228113554 5e858a43 matrices_casillas%b
 D numeros.ads		20170227195930 a4214673 numeros%s
 D system.ads		20140406181358 5fc8ae56 system%s
 D s-crtl.ads		20140406181356 2c012597 system.crtl%s
@@ -50,10 +50,10 @@ X 5 a-textio.ads
 168U14*Skip_Line 12|17s22 37s19
 239U14*Get 12|9s22 28s22
 X 6 casillas.ads
-2K9*Casillas 32e16 11|1w6 17r66 20r81 29r61 12|5r9 10r10 14r18 29r10 33r15
-. 52r32 64r17 65r23 73r17 74r23 88r20 89r26
+2K9*Casillas 32e16 11|1w6 17r66 20r81 29r61 12|5r9 10r10 12r13 14r18 29r10
+. 33r15 52r32 64r17 65r23 73r17 74r23 88r20 89r26
 4R9*Casilla 31e17 11|17r75 20r90 29r70 12|5r18 52r41
-6U11*Crear 12|10s19 29s19
+6U11*Crear 12|10s19 12s22 29s19
 9V10*Esta_Libre{boolean} 12|64s26 73s26 88s29
 15V10*Valor{13|3I12} 12|65s32 74s32 89s35
 18U11*Asignar_Valor 12|14s27 33s24
@@ -95,7 +95,7 @@ X 11 matrices_casillas.ads
 23r45 IG{7|4R9} 12|57b42 96r33 97r77 98r83 99r77
 X 12 matrices_casillas.adb
 4a7 Cifra{string} 9m31 11r13 13r21
-5r7 C{6|4R9} 10m25 14m41 14r41 15r37
+5r7 C{6|4R9} 10m25 12m28 14m41 14r41 15r37
 7i8 Fila{8|3I12} 15r19
 8i11 Columna{8|3I12} 15r25
 26i10 Fila{8|3I12} 34r16

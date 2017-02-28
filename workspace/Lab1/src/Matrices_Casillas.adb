@@ -9,7 +9,7 @@ begin
          Ada.Text_IO.Get(Fich,Cifra);
          Casillas.Crear(C);
          if cifra(1) = '0' then
-            casillas.crear(c)
+            casillas.crear(c);
             if not (Cifra(1) in '1' .. '9') then raise Numero_Erroneo;
             else Casillas.Asignar_Valor(C, Numeros.Numero'Value(Cifra));
                MC(Fila, Columna) := C;
