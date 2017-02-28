@@ -1,8 +1,26 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
-    <file_marker current="true" column=" 1" line=" 1" >
+  <Project>
+    <vfs_file>C:\Users\PC\SparkleShare\Programacion\workspace\Lab1\Lab1.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
       <vfs_file>C:\Users\PC\SparkleShare\Programacion\workspace\Lab1\src\Tablero.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\PC\SparkleShare\Programacion\workspace\Lab1\src\Sudokus.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\PC\SparkleShare\Programacion\workspace\Lab1\src\Ids_Grupo_Casillas.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_file>C:\Users\PC\SparkleShare\Programacion\workspace\Lab1\src\Matrices_Casillas.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_file>C:\Users\PC\SparkleShare\Programacion\workspace\Lab1\src\Numeros.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_file >C:\Users\PC\SparkleShare\Programacion\workspace\Lab1\src\Tablero.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
