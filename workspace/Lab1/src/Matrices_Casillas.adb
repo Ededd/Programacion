@@ -8,7 +8,7 @@ begin
       for Columna in Indices.Indice loop
          Ada.Text_IO.Get(Fich,Cifra);
          Casillas.Crear(C);
-         if cifra(1) = 0 then
+         if cifra(1) = '0' then
             casillas.crear(c)
             if not (Cifra(1) in '1' .. '9') then raise Numero_Erroneo;
             else Casillas.Asignar_Valor(C, Numeros.Numero'Value(Cifra));
