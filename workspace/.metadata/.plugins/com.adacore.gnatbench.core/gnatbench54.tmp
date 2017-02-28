@@ -1,5 +1,0 @@
-tablero.adb:2:14: missing body for "Anotar_Numero" declared at tablero.ads:20
-tablero.adb:2:14: missing body for "Borrar_Numero" declared at tablero.ads:23
-tablero.adb:2:14: missing body for "Ayudar" declared at tablero.ads:26
-tablero.adb:16:23: "=" should be ":="
-gprbuild: *** compilation phase failed
