@@ -38,4 +38,4 @@ package body Tablero is
                               return false;
                                        end if;
                                        end Solucion_Correcta;
-end tablero;
+
