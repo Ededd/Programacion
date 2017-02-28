@@ -29,7 +29,7 @@ private
    type Sudoku is record
       Identificacion: String (1..4);
       Niveles_De_Dificultad: Niveles_Dificultad.Nivel;
-      Valores_Numericos: Matrices_Casillas.Matriz;
+      Matriz: Matrices_Casillas.Matriz;
    end record;
 end Sudokus;
 

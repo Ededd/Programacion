@@ -13,7 +13,7 @@ package body Sudokus is
 
       S.Identificacion := Ident;
       S.Niveles_De_Dificultad:=integer'value(Nivel);
-      S.Matri:=Mat;
+      S.Matriz:=Mat;
 
    exception
       when Ada.Text_Io.End_Error => raise Error_De_Lectura;
@@ -38,5 +38,5 @@ package body Sudokus is
       begin
          S1.Identificacion:= S2.Identificacion;
          S1.Niveles_De_Dificultad:= S2.Niveles_De_Dificultad;
-         S1.Matri := S2.Matriz;
+         S1.Matriz := S2.Matriz;
          end Copiar;

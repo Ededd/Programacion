@@ -16,7 +16,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U sudokus%b		sudokus.adb		b60c8097 OO PK
+U sudokus%b		sudokus.adb		eddc89eb OO PK
 
 D ada.ads		20140406181354 3ffc8e18 ada%s
 D a-finali.ads		20140406181358 69f99942 ada.finalization%s
@@ -31,8 +31,8 @@ D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
 D matrices_casillas.ads	20170227195930 5652a531 matrices_casillas%s
 D niveles_dificultad.ads  20170227195930 b1764c84 niveles_dificultad%s
 D numeros.ads		20170227195930 a4214673 numeros%s
-D sudokus.ads		20170228113022 ec078c02 sudokus%s
-D sudokus.adb		20170228113140 5a0b0c95 sudokus%b
+D sudokus.ads		20170228113204 b997d79c sudokus%s
+D sudokus.adb		20170228113204 544b5e77 sudokus%b
 D system.ads		20140406181358 5fc8ae56 system%s
 D s-crtl.ads		20140406181356 2c012597 system.crtl%s
 D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s
@@ -52,8 +52,8 @@ X 5 a-textio.ads
 239U14*Get 15|9s19 10s19
 297X4*End_Error 15|19r24
 X 11 matrices_casillas.ads
-5K9*Matrices_Casillas 30e22 14|2w6 2r29 19r42 32r26 15|7r12 11r7 12r7 32r46
-7A9*Matriz(6|4R9) 14|19r60 32r44 15|7r30 32r64
+5K9*Matrices_Casillas 30e22 14|2w6 2r29 19r42 32r15 15|7r12 11r7 12r7 32r46
+7A9*Matriz(6|4R9) 14|19r60 32r33 15|7r30 32r64
 9U14*Leer_Inicial 15|11s25
 12U14*Leer_Final 15|12s25
 X 12 niveles_dificultad.ads
@@ -74,14 +74,14 @@ X 14 sudokus.ads
 19r21 S{7R9} 15|32b25
 22U14*Copiar 22<22 22>38 15|37b17 42l14 42t20
 22r22 S1{7R9} 15|37b25 39m10 40m10 41m10
-22r38 S2{7R9} 15|37b41 39r30 40r37 41r22
+22r38 S2{7R9} 15|37b41 39r30 40r37 41r23
 25X4*Error_De_Lectura 15|19r43
 26X4*Numero_Erroneo
 30a7*Identificacion{string} 15|14m9 39m13 39r33
 31i7*Niveles_De_Dificultad{12|3I12} 15|15m9 40m13 40r40
-32a7*Valores_Numericos{11|7A9}
+32a7*Matriz{11|7A9} 15|16m9 41m13 41r26
 X 15 sudokus.adb
 5a7 Ident{string} 9m29 14r27
 6a7 Nivel{string} 10m29 15r46
-7a7 Mat{11|7A9} 11m44 12m42 16r16
+7a7 Mat{11|7A9} 11m44 12m42 16r17
 
