@@ -25,6 +25,9 @@ package Matrices_Casillas is
    -- Salida:  Un valor booleano
    -- Efecto:  Devuelve True si M tiene inconsistencias en el grupo de casillas IG; y False en otro caso. El grupo IG tiene inconsistencias cuando en el se repite algún número
 
+   Error_De_Lectura: exception;
+   Numero_Erroneo: exception;
+
 private
    type Matriz is array (Indices.Indice, Indices.Indice) of Casillas.Casilla;
 end Matrices_Casillas;
