@@ -24,7 +24,7 @@ package body Tablero is
          for Columna in Indices.Indice loop
             if not Casillas.Esta_Libre(Matrices_Casillas.Casilla(Tablero_De_Juego, Fila, Columna)) then
                                        Cas_Tab := matrices_casillas.Casilla(Tablero_De_Juego, Fila, Columna);Cas_Sud := matrices_casillas.casilla(Sudokus.Matriz(Sudoku_actual),Fila,Columna);
-                                       if casillas.Valor(cas_tab) = casillas.Valor(cas_sud) then
+                                       if casillas.Valor(cas_t) = casillas.Valor(cas_s) then
                                        cont := cont +1;
                                        end if;
 
