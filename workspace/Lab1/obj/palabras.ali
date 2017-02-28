@@ -1,0 +1,73 @@
+V "GNAT Lib v2014"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P NO ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U palabras%b		palabras.adb		9b28ef9f OO PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_deallocation%s
+
+U palabras%s		palabras.ads		d169701f EE OO PK
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-uncdea.ads		20140406181358 f15a5ed1 ada.unchecked_deallocation%s
+D palabras.ads		20170227195930 d169701f palabras%s
+D palabras.adb		20170227195930 bb1bc151 palabras%b
+X 1 ada.ads
+16K9*Ada 19e8 4|1r6 4r37
+X 2 a-uncdea.ads
+17+9 Object 4|5r15
+18P9 Name(17+9) 4|6r15
+20u15*Unchecked_Deallocation 4|1w10 4r41
+X 3 palabras.ads
+1K9*Palabras 53E9 54l5 54e13 4|2b14 61l5 61t13
+3P9*Palabra 5r28 10r23 16r26 22r26 28r26 34r28 34r44 38r30 38r43 44r34 53c9
+. 4|6r23 8r28 13r23 20r26 27r26 34r26 44r28 44r44 49r30 49r43 56r34
+5U14*Crear 5<21 5>37 4|8b14 11l8 11t13
+5p21 P{3P9} 4|8b21 10m7
+5a37 S{string} 4|8b37 10r24
+10V13*Valor{string} 10>20 4|13b13 18l8 18t13
+10p20 P{3P9} 4|13b20 15r14
+16V13*Longitud{positive} 16>23 4|20b13 25l8 25t16
+16p23 P{3P9} 4|20b23 22r14
+22V14*"<"{boolean} 22>18 22>22 4|27b14 32l9 32t11
+22p18 P1{3P9} 4|27b18 29r14
+22p22 P2{3P9} 4|27b22 29r23
+28V14*"="{boolean} 28>18 28>22 4|34b14 42l9 42t11
+28p18 P1{3P9} 4|34b18 36r11 38r20
+28p22 P2{3P9} 4|34b22 36r28 38r29
+34V13*Identidad{3P9} 34>24 4|44b13 47l8 47t17
+34p24 P1{3P9} 4|44b24 46r14
+38U14*Copiar 38<22 38>39 4|49b14 54l8 54t14
+38p22 P1{3P9} 4|49b22 51m7
+38p39 P2{3P9} 4|49b39 51r25
+44U14*Liberar 44=23 4|56b14 59l8 59t15
+44p23 P1{3P9} 4|56b23 58m23
+50X4*Sin_Inicializar 4|17r38 24r38 31r38 41r38 53r38
+X 4 palabras.adb
+4U14 Liberar_Palabra[2|20] 58s7
+

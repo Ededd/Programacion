@@ -20,3 +20,56 @@ matrices_casillas.adb:45:26: possible misspelling of "Casillas"
 matrices_casillas.adb:48:01: statement expected
 matrices_casillas.adb:55:01: statement expected
 gprbuild: *** compilation phase failed
+casillas_iconos.adb:1:06: file "gwindows.ads" not found
+casillas_iconos.adb:1:06: "Casillas_Iconos (body)" depends on "Coleccion_Iconos (spec)"
+casillas_iconos.adb:1:06: "Coleccion_Iconos (spec)" depends on "Punteros_Iconos (spec)"
+casillas_iconos.adb:1:06: "Punteros_Iconos (spec)" depends on "Gwindows (spec)"
+casillas_iconos.adb:13:07: "Get_Canvas" is undefined (more references follow)
+casillas_iconos.adb:18:07: "Redraw" is undefined
+casillas_iconos.adb:41:07: not type conformant with declaration at casillas_iconos.ads:9
+casillas_iconos.adb:41:07: type of "C" does not match
+casillas_iconos.adb:44:07: "Create_as_Control" is undefined
+casillas_iconos.adb:50:07: "Border" is undefined
+casillas_iconos.adb:51:07: invalid prefix in selected component "C"
+casillas_iconos.adb:52:07: invalid prefix in selected component "C"
+casillas_iconos.adb:53:07: invalid prefix in selected component "C"
+casillas_iconos.adb:54:07: invalid prefix in selected component "C"
+casillas_iconos.adb:59:11: invalid prefix in selected component "C"
+casillas_iconos.adb:68:19: not type conformant with declaration at casillas_iconos.ads:25
+casillas_iconos.adb:68:19: type of "C" does not match
+casillas_iconos.adb:70:14: invalid prefix in selected component "C"
+casillas_iconos.adb:73:18: not type conformant with declaration at casillas_iconos.ads:29
+casillas_iconos.adb:73:18: type of "C" does not match
+casillas_iconos.adb:75:14: invalid prefix in selected component "C"
+casillas_iconos.adb:78:25: not type conformant with declaration at casillas_iconos.ads:33
+casillas_iconos.adb:78:25: type of "C" does not match
+casillas_iconos.adb:80:14: invalid prefix in selected component "C"
+casillas_iconos.adb:83:29: not type conformant with declaration at casillas_iconos.ads:37
+casillas_iconos.adb:83:29: type of "C" does not match
+casillas_iconos.adb:91:07: invalid prefix in selected component "C"
+casillas_iconos.adb:94:28: not type conformant with declaration at casillas_iconos.ads:42
+casillas_iconos.adb:94:28: type of "C" does not match
+casillas_iconos.adb:97:07: invalid prefix in selected component "C"
+casillas_iconos.adb:100:30: not type conformant with declaration at casillas_iconos.ads:47
+casillas_iconos.adb:100:30: type of "C" does not match
+casillas_iconos.adb:102:14: invalid prefix in selected component "C"
+casillas_iconos.ads:2:06: file "gwindows.ads" not found
+casillas_iconos.ads:2:06: "Casillas_Iconos (body)" depends on "Casillas_Iconos (spec)"
+casillas_iconos.ads:2:06: "Casillas_Iconos (spec)" depends on "Gwindows (spec)"
+casillas_iconos.ads:3:06: file "gwindows.ads" not found
+casillas_iconos.ads:3:06: "Casillas_Iconos (body)" depends on "Casillas_Iconos (spec)"
+casillas_iconos.ads:3:06: "Casillas_Iconos (spec)" depends on "Gwindows (spec)"
+punteros_iconos.ads:3:33: "GWindows" is undefined (more references follow)
+gprbuild: *** compilation phase failed
+casillas_iconos.ads:2:06: file "gwindows.ads" not found
+casillas_iconos.ads:3:06: file "gwindows.ads" not found
+casillas_iconos.ads:7:24: "Gwindows" is undefined (more references follow)
+gprbuild: *** compilation phase failed
+coleccion_iconos.adb:1:06: file "gwindows.ads" not found
+coleccion_iconos.adb:3:06: file "gwindows.ads" not found
+coleccion_iconos.ads:1:06: file "gwindows.ads" not found
+coleccion_iconos.ads:1:06: "Coleccion_Iconos (body)" depends on "Coleccion_Iconos (spec)"
+coleccion_iconos.ads:1:06: "Coleccion_Iconos (spec)" depends on "Punteros_Iconos (spec)"
+coleccion_iconos.ads:1:06: "Punteros_Iconos (spec)" depends on "Gwindows (spec)"
+punteros_iconos.ads:3:33: "GWindows" is undefined (more references follow)
+gprbuild: *** compilation phase failed

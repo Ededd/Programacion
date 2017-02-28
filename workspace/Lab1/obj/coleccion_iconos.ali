@@ -1,4 +1,4 @@
-V "GNAT Lib v2013"
+V "GNAT Lib v2014"
 A -gnatA
 A -g
 A -g
@@ -17,27 +17,68 @@ A -march=pentiumpro
 P CE NO ZX
 
 RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
-RV SPARK
+RV SPARK_05
 
-U coleccion_iconos%s	coleccion_iconos.ads	a0483310 EE OO PK
-W punteros_iconos%s	punteros_iconos.ads	punteros_iconos.ali
+U coleccion_iconos%b	coleccion_iconos.adb	25130cf3 OO PK
+W gnat%s		gnat.ads		gnat.ali
+W gnat.table%s
+W gwindows.drawing_objects%s  gwindows-drawing_objects.ads  gwindows-drawing_objects.ali
+W gwindows.registry%s	gwindows-registry.ads	gwindows-registry.ali
 
-D coleccion_iconos.ads	20170227185928 36baa5e4
+D coleccion_iconos.ads	20170227195930 36baa5e4 coleccion_iconos%s
+D coleccion_iconos.adb	20170227195930 05675d51 coleccion_iconos%b
+D gnat.ads		20140406181358 fd2ad2f1 gnat%s
+D g-table.ads		20140406181358 16cef446 gnat.table%s
 D gwindows-drawing_objects.ads  00000000000000 00000000
-D punteros_iconos.ads	20170227185928 96f296f4
+D gwindows-drawing_objects.ads  00000000000000 00000000
+D gwindows-registry.ads	00000000000000 00000000
+D punteros_iconos.ads	20170227195930 96f296f4 punteros_iconos%s
 X 1 coleccion_iconos.ads
-2K9*Coleccion_Iconos 28l5 28e21
-7V13*Fich_Fondo_Vacio{string}
-11V13*Fich_Fondo_Marcado{string}
-14U14*Introducir_Icono 14>32
-14s32 Nombre_Fich{string}
-18U14*Obtener_Objeto_Icono 19>8 20<8
-19s8 Nombre_Fich{string}
-20p8 Icono{3|3P9}
-26X4*Icono_Inexistente
-X 3 punteros_iconos.ads
-2K9*Punteros_Iconos 1|1w6 20r20 3|4e20
-3P9*Puntero_Icono(any type) 1|20r36
+2K9*Coleccion_Iconos 28l5 28e21 2|5b14 74l5 74t21
+7V13*Fich_Fondo_Vacio{string} 2|38b13 41l8 41t24 72s38
+11V13*Fich_Fondo_Marcado{string} 2|43b13 46l8 46t26 73s38
+14U14*Introducir_Icono 14>32 2|48b14 52l8 52t24
+14a32 Nombre_Fich{string} 2|48b32 49r50
+18U14*Obtener_Objeto_Icono 19>8 20<8 2|54b14 68l8 68t28
+19a8 Nombre_Fich{string} 2|55b8 60r61
+20p8 Icono{8|3P9} 2|56b8 61m13
+26X4*Icono_Inexistente 2|66r16
+X 2 coleccion_iconos.adb
+7P9 Punt_Icono_Fich(string) 17r31
+12a4 Directorio_Iconos{string}
+14R9 Reg_Icono 18e17 21r32 28r58 29r15 49r24
+16p10*Punt_Icono{8|3P9} 31m13 61r45
+17p10*Nombre_Fich_Iconos{7P9} 34m13 60r36
+20K12 Tabla_Iconos[4|56] 51r7 59r21 60r13 61r22 71r4 72r4 73r4
+28V13 Nuevo_Icono{14R9} 28b13 28>26 36l8 36t19 49s37 72s25 73s25
+28a26 Nombre_Fich{string} 34r47
+29r7 Icono{14R9} 31m7 34m7 35r14
+49r7 Icono{14R9} 51r28
+57b7 Existe_Icono{boolean} 62m13 65r14
+59i11 I{integer} 60r33 61r42
+X 3 gnat.ads
+34K9*GNAT 2|2r6 20r32 3|37e9
+X 4 g-table.ads
+49+9 Table_Component_Type 2|21r8
+50I9 Table_Index_Type 2|22r8
+52*4 Table_Low_Bound{50I9} 2|23r8
+53i4 Table_Initial{positive} 2|24r8
+54i4 Table_Increment{natural} 2|25r8
+56k14*Table 2|2w11 20r37 4|225e15
+104A9*Table_Type(2|14R9)<integer>
+106A12*Big_Table_Type{104A9[2|20]}<integer>
+115P9*Table_Ptr(106A12[2|20])
+120p4*Table{115P9[2|20]} 2|60r25[20] 60r26[20] 61r34[20] 61r35[20]
+133U14*Init 2|71s17[20]
+140V13*Last{integer} 2|59s34[20]
+177U14*Append 2|51s20[20] 72s17[20] 73s17[20]
+X 8 punteros_iconos.ads
+2K9*Punteros_Iconos 1|1w6 20r20 2|16r23 56r20 8|4e20
+3P9*Puntero_Icono(any type) 1|20r36 2|16r39 56r36
 
