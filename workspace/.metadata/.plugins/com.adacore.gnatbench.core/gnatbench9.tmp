@@ -1,0 +1,5 @@
+gcc -c -g -g -gnato -gnatwa -gnatQ -gnat05 -gnatcQI -gnatws -gnatyN -gnatVn Tablero.adb
+completed 1 out of 1 (100%)...
+
+   compilation of Tablero.adb failed
+

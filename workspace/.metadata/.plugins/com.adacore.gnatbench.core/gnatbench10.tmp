@@ -1,0 +1,12 @@
+tablero.adb:2:14: missing body for "Anotar_Numero" declared at tablero.ads:20
+tablero.adb:2:14: missing body for "Borrar_Numero" declared at tablero.ads:23
+tablero.adb:2:14: missing body for "Ayudar" declared at tablero.ads:26
+tablero.adb:14:116: missing ")"
+tablero.adb:15:10: no "if" for this "end if"
+tablero.adb:25:28: "Esta" not declared in "Casillas"
+tablero.adb:25:98: missing ")"
+tablero.adb:27:58: "cas_t" is undefined
+tablero.adb:27:82: "cas_s" is undefined
+tablero.adb:28:48: "cont" is undefined (more references follow)
+tablero.adb:40:62: missing "end Tablero;"
+gprbuild: *** compilation phase failed
