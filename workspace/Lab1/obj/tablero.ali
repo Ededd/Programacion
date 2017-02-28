@@ -1,11 +1,19 @@
 V "GNAT Lib v2014"
+A -gnatA
 A -g
 A -g
 A -gnato
 A -gnatwa
 A -gnatQ
 A -gnat05
-A -gnatA
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
 P CE NO ZX
 
 RN
