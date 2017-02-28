@@ -2,9 +2,9 @@
 package body Sudokus is
 
    procedure Leer (Fich: in out Ada.Text_IO.File_Type; S: out Sudoku) is
-      Identicacion: String(1..4);
+      Identificacion: String(1..4);
       Nivel: string(1..1);
-      Matriz: Matrices_Casillas.Matriz;
+      Mat: Matrices_Casillas.Matriz;
    begin
       Ada.Text_Io.Get(Fich, Identificacion);Ada.Text_Io.Skip_Line(Fich);
       Ada.Text_Io.Get(Fich, Nivel);Ada.Text_Io.Skip_Line(Fich);
@@ -15,7 +15,7 @@ package body Sudokus is
       S.Nivel_Dif:=integer'value(Nivel);
       S.Mat:=Mat;
 
-   exception
+   exceptionc
       when Ada.Text_Io.End_Error => raise Error_De_Lectura;
 
    end Leer;
