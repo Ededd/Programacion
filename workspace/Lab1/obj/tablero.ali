@@ -1,19 +1,11 @@
 V "GNAT Lib v2014"
-A -gnatA
 A -g
 A -g
 A -gnato
 A -gnatwa
 A -gnatQ
 A -gnat05
-A -gnatc
-A -gnatQ
-A -gnatI
-A -gnatws
-A -gnatyN
-A -gnatVn
-A -mtune=generic
-A -march=pentiumpro
+A -gnatA
 P CE NO ZX
 
 RN
@@ -21,7 +13,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U tablero%b		tablero.adb		16e5cb7c OO PK
+U tablero%b		tablero.adb		cee6446d OO PK
 W casillas%s		casillas.adb		casillas.ali
 W ids_grupo_casillas%s	ids_grupo_casillas.adb	ids_grupo_casillas.ali
 W matrices_casillas%s	matrices_casillas.adb	matrices_casillas.ali
@@ -53,11 +45,12 @@ D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
 D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
 D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
 D tablero.ads		20170227195930 cb3c87b4 tablero%s
-D tablero.adb		20170228111138 744e261e tablero%b
+D tablero.adb		20170228111206 ac4da90f tablero%b
 D tablero-interfaz.ads	20170227195930 fdf5f71f tablero.interfaz%s
 X 6 casillas.ads
 2K9*Casillas 32e16 26|1w43 21r25 25r20 27r43 27r67
 4R9*Casilla 31e17 26|21r34
+9V10*Esta_Libre{boolean} 26|25s29
 15V10*Valor{13|3I12} 26|27s52 27s76
 X 7 ids_grupo_casillas.ads
 2K9*Ids_Grupo_Casillas 29e23 26|1w53
@@ -67,7 +60,7 @@ X 8 indices.ads
 X 11 matrices_casillas.ads
 5K9*Matrices_Casillas 30e22 26|1w24 4r22 25r40 26r51 26r121
 7A9*Matriz(6|4R9) 26|4r40
-17V13*Casilla{6|4R9} 26|25r58 26s69 26s139
+17V13*Casilla{6|4R9} 26|25s58 26s69 26s139
 X 12 niveles_dificultad.ads
 3I12*Nivel{positive}
 X 13 numeros.ads
