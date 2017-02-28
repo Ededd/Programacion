@@ -16,7 +16,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U sudokus%b		sudokus.adb		9692f34c OO PK
+U sudokus%b		sudokus.adb		0ca89415 OO PK
 
 D ada.ads		20140406181354 3ffc8e18 ada%s
 D a-finali.ads		20140406181358 69f99942 ada.finalization%s
@@ -32,7 +32,7 @@ D matrices_casillas.ads	20170227195930 5652a531 matrices_casillas%s
 D niveles_dificultad.ads  20170227195930 b1764c84 niveles_dificultad%s
 D numeros.ads		20170227195930 a4214673 numeros%s
 D sudokus.ads		20170228110328 58c8dcb0 sudokus%s
-D sudokus.adb		20170228112352 ce5a2ffc sudokus%b
+D sudokus.adb		20170228112506 546048a5 sudokus%b
 D system.ads		20140406181358 5fc8ae56 system%s
 D s-crtl.ads		20140406181356 2c012597 system.crtl%s
 D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s
@@ -44,11 +44,11 @@ D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
 D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
 D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 19e8 14|1r6 9r33 15|4r33 9r7 9r45 10r7 10r36 19r12
+16K9*Ada 19e8 14|1r6 9r33 15|4r33 9r7 9r36 10r7 10r36 19r12
 X 5 a-textio.ads
-49K13*Text_IO 471e16 14|1w10 9r37 15|4r37 9r11 9r49 10r11 10r40 19r16
+49K13*Text_IO 471e16 14|1w10 9r37 15|4r37 9r11 9r40 10r11 10r40 19r16
 52P9*File_Type 14|9r45 15|4r45
-168U14*Skip_Line 15|9s57 10s48
+168U14*Skip_Line 15|9s48 10s48
 239U14*Get 15|9s19 10s19
 297X4*End_Error 15|19r24
 X 11 matrices_casillas.ads
@@ -64,7 +64,7 @@ X 14 sudokus.ads
 7R9*Sudoku 9r63 12r34 15r31 19r27 22r30 22r45 26c9 30e14 15|4r63 22r37 24r25
 . 27r34 29r25 32r31 34r25 37r33 37r48
 9U14*Leer 9=20 9<56 15|4b14 21l8 21t12
-9p20 Fich{5|52P9} 15|4b20 9r23 9r67 10r23 10r58 11m38 12m36
+9p20 Fich{5|52P9} 15|4b20 9r23 9r58 10r23 10r58 11m38 12m36
 9r56 S{7R9} 15|4b56 14m7 15m7 16m7
 12V13*Identificador{string} 12>28 15|22b16 25l11 25t24
 12r28 S{7R9} 15|22b31
@@ -75,11 +75,11 @@ X 14 sudokus.ads
 22U14*Copiar 22<22 22>38 15|37b17 42l14 42t20
 22r22 S1{7R9} 15|37b25 39m10 40m10 41m10
 22r38 S2{7R9} 15|37b41 39r30 40r37 41r33
-27a7*Identificacion{string} 15|39m13 39r33
+27a7*Identificacion{string} 15|14m9 39m13 39r33
 28i7*Niveles_De_Dificultad{12|3I12} 15|40m13 40r40
 29a7*Valores_Numericos{11|7A9} 15|41m13 41r36
 X 15 sudokus.adb
-5a7 Identificacion{string} 9m29
+5a7 Ident{string} 9m29 14r27
 6a7 Nivel{string} 10m29 15r34
 7a7 Mat{11|7A9} 11m44 12m42 16r14
 
