@@ -11,7 +11,7 @@ package body Tablero is
 
    procedure Jugar (Nombre_Jugador: in String; Fin_Correcto: out Boolean) is
       begin
-        Interfaz.Visualizar(Nombre_Jugador, sudokus.Identificador(sudoku_actual), sudokus.Dificultad(sudoku_actual));
+        Interfaz.Visualizar(Nombre_Jugador, sudokus.Identificador(sudoku_actual), sudokus.Dificultad(sudoku_actual);
         -- end if;
 --          Tablero.Interfaz.Liberar;
    end Jugar;
