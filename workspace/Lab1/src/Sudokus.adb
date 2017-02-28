@@ -12,8 +12,8 @@ package body Sudokus is
       Matrices_Casillas.Leer_Final(Fich, Mat);
 
       S.Identificacion := Ident;
-      S.Nivel_Dif:=integer'value(Nivel);
-      S.Mat:=Mat;
+      S.Niveles_De_Dificultad:=integer'value(Nivel);
+      S.Matriz:=Mat;
 
    exceptionc
       when Ada.Text_Io.End_Error => raise Error_De_Lectura;
@@ -38,5 +38,5 @@ package body Sudokus is
       begin
          S1.Identificacion:= S2.Identificacion;
          S1.Niveles_De_Dificultad:= S2.Niveles_De_Dificultad;
-         S1.Valores_Numericos:= S2.Valores_Numericos;
+         S1.matriz := S2.matriz;
          end Copiar;
