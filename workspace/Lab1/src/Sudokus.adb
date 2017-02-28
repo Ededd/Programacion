@@ -31,7 +31,7 @@ package body Sudokus is
 
       function  Matriz (S: in Sudoku) return Matrices_Casillas.Matriz is
       begin
-         return Sudokus.Sudoku.Valores_Numericos;
+         return S.Matriz;
       end Matriz;
 
       procedure Copiar (S1: out Sudoku; S2: in Sudoku) is
