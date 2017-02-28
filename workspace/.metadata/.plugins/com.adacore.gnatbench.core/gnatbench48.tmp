@@ -1,0 +1,7 @@
+gcc -c -g -g -gnato -gnatwa -gnatQ -gnat05 -I- -gnatA C:\Users\PC\SparkleShare\Programacion\workspace\Lab1\src\Tablero.adb
+tablero.adb:1:53: warning: unit "ids_grupo_casillas" is not referenced
+tablero.adb:2:14: missing body for "Anotar_Numero" declared at tablero.ads:20
+tablero.adb:2:14: missing body for "Borrar_Numero" declared at tablero.ads:23
+tablero.adb:2:14: missing body for "Ayudar" declared at tablero.ads:26
+tablero.adb:16:23: "=" should be ":="
+gnatmake: "C:\Users\PC\SparkleShare\Programacion\workspace\Lab1\src\Tablero.adb" compilation error

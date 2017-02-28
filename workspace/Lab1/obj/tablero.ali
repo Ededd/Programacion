@@ -21,7 +21,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U tablero%b		tablero.adb		531a3760 OO PK
+U tablero%b		tablero.adb		475c4273 OO PK
 W casillas%s		casillas.adb		casillas.ali
 W ids_grupo_casillas%s	ids_grupo_casillas.adb	ids_grupo_casillas.ali
 W matrices_casillas%s	matrices_casillas.adb	matrices_casillas.ali
@@ -53,42 +53,42 @@ D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
 D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
 D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
 D tablero.ads		20170227195930 cb3c87b4 tablero%s
-D tablero.adb		20170228111434 31b1da02 tablero%b
+D tablero.adb		20170228111522 25f7af11 tablero%b
 D tablero-interfaz.ads	20170227195930 fdf5f71f tablero.interfaz%s
 X 6 casillas.ads
-2K9*Casillas 32e16 26|1w43 21r25 25r20 27r43 27r69
-4R9*Casilla 31e17 26|21r34
-9V10*Esta_Libre{boolean} 26|25s29
-15V10*Valor{13|3I12} 26|27s52 27s78
+2K9*Casillas 32e16 26|1w43 22r25 26r20 28r43 28r69
+4R9*Casilla 31e17 26|22r34
+9V10*Esta_Libre{boolean} 26|26s29
+15V10*Valor{13|3I12} 26|28s52 28s78
 X 7 ids_grupo_casillas.ads
 2K9*Ids_Grupo_Casillas 29e23 26|1w53
 X 8 indices.ads
-1K9*Indices 7e12 25|1w15 20r38 23r38 26|23r19 24r25
-3I12*Indice{positive} 25|20r46 23r46 26|23r27 24r33
+1K9*Indices 7e12 25|1w15 20r38 23r38 26|24r19 25r25
+3I12*Indice{positive} 25|20r46 23r46 26|24r27 25r33
 X 11 matrices_casillas.ads
-5K9*Matrices_Casillas 30e22 26|1w24 4r22 25r40 26r51 26r121
+5K9*Matrices_Casillas 30e22 26|1w24 4r22 26r40 27r51 27r121
 7A9*Matriz(6|4R9) 26|4r40
-17V13*Casilla{6|4R9} 26|25s58 26s69 26s139
+17V13*Casilla{6|4R9} 26|26s58 27s69 27s139
 X 12 niveles_dificultad.ads
 3I12*Nivel{positive}
 X 13 numeros.ads
 1K9*Numeros 5e12 25|1w24 20r60
 3I12*Numero{positive} 25|20r68
 X 14 sudokus.ads
-5K9*Sudokus 31e12 25|1w6 4r34 26|5r19 7r35 9r7 14r45 14r83 26r147
+5K9*Sudokus 31e12 25|1w6 4r34 26|5r19 7r35 9r7 14r45 14r83 27r147
 7R9*Sudoku 30e14 25|4r42 26|5r27 7r43
 12V13*Identificador{string} 26|14s53
 15V13*Dificultad{12|3I12} 26|14s91
-19V13*Matriz{11|7A9} 26|26s155
+19V13*Matriz{11|7A9} 26|27s155
 22U14*Copiar 26|9s15
 X 25 tablero.ads
-2K9*Tablero 34l5 34e12 26|1r6 2b14 41l5 41t12
+2K9*Tablero 34l5 34e12 26|1r6 2b14 17r9 42l5 42t12
 4U14*Cargar_Sudoku 4>28 26|7b14 10l8 10t21
 4r28 S{14|7R9} 26|7b29 9r37
-7U14*Jugar 7>21 7<48 26|12b14 17l8 17t13
+7U14*Jugar 7>21 7<48 26|12b14 18l8 18t13
 7a21 Nombre_Jugador{string} 26|12b21 14r29
-7b48 Fin_Correcto{boolean} 26|12b48
-17V13*Solucion_Correcta{boolean} 26|19b13 40l44 40t61
+7b48 Fin_Correcto{boolean} 26|12b48 16m10
+17V13*Solucion_Correcta{boolean} 26|20b13 41l44 41t61
 20U14*Anotar_Numero 20>29 20>32 20>54
 20i29 F{8|3I12}
 20i32 C{8|3I12}
@@ -98,14 +98,15 @@ X 25 tablero.ads
 23i32 C{8|3I12}
 26U14*Ayudar
 X 26 tablero.adb
-4a4 Tablero_De_Juego{11|7A9} 25r66 26r77
-5r4 Sudoku_Actual{14|7R9} 9m22 14r67 14r102 26r162
-20i7 Contador{integer} 28m40 28r52 35r32
-21r7 Cas_Tab{6|4R9} 26m40 27r58
-21r16 Cas_Sud{6|4R9} 26m110 27r84
-23i11 Fila{8|3I12} 25r84 26r95 26r177
-24i14 Columna{8|3I12} 25r90 26r101 26r182
+4a4 Tablero_De_Juego{11|7A9} 26r66 27r77
+5r4 Sudoku_Actual{14|7R9} 9m22 14r67 14r102 27r162
+21i7 Contador{integer} 29m40 29r52 36r32
+22r7 Cas_Tab{6|4R9} 27m40 28r58
+22r16 Cas_Sud{6|4R9} 27m110 28r84
+24i11 Fila{8|3I12} 26r84 27r95 27r177
+25i14 Columna{8|3I12} 26r90 27r101 27r182
 X 27 tablero-interfaz.ads
-3K17*Interfaz 26|1w14 14r9 27|57e21
+3K17*Interfaz 26|1w14 14r9 17r17 27|57e21
 7U14*Visualizar 26|14s18
+52U14*Liberar 26|17s26
 
