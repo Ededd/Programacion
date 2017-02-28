@@ -16,7 +16,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U sudokus%b		sudokus.adb		29c60ea6 OO PK
+U sudokus%b		sudokus.adb		e9f9341b OO PK
 
 D ada.ads		20140406181354 3ffc8e18 ada%s
 D a-finali.ads		20140406181358 69f99942 ada.finalization%s
@@ -32,7 +32,7 @@ D matrices_casillas.ads	20170227195930 5652a531 matrices_casillas%s
 D niveles_dificultad.ads  20170227195930 b1764c84 niveles_dificultad%s
 D numeros.ads		20170227195930 a4214673 numeros%s
 D sudokus.ads		20170228113204 b997d79c sudokus%s
-D sudokus.adb		20170228113300 9051d93a sudokus%b
+D sudokus.adb		20170228113318 506ee387 sudokus%b
 D system.ads		20140406181358 5fc8ae56 system%s
 D s-crtl.ads		20140406181356 2c012597 system.crtl%s
 D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s
@@ -72,7 +72,7 @@ X 14 sudokus.ads
 15r25 S{7R9} 15|27b28 29r17
 19V13*Matriz{11|7A9} 19>21 15|32b17 35l11 35t17
 19r21 S{7R9} 15|32b25 34r17
-22U14*Copiar 22<22 22>38 15|37b17 42l14 42t20
+22U14*Copiar 22<22 22>38 15|37b17 42l8 42t14
 22r22 S1{7R9} 15|37b25 39m10 40m10 41m10
 22r38 S2{7R9} 15|37b41 39r30 40r37 41r23
 25X4*Error_De_Lectura 15|19r43
