@@ -15,7 +15,8 @@ begin
             else Casillas.Asignar_Valor(C, Numeros.Numero'Value(Cifra));
                MC(Fila, Columna) := C;
             end if;
-         Ada.Text_Io.Skip_Line(Fich);
+         end if;
+         Ada.Text_Io.Skip_Line(Fich);]
       exception
                when others => raise error_de_lectura;
                   end loop;
