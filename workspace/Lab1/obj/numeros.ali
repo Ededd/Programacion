@@ -1,0 +1,29 @@
+V "GNAT Lib v2014"
+A -gnatA
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P NO ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U numeros%s		numeros.ads		a4214673 EE OO PK
+
+D numeros.ads		20170227195930 a4214673 numeros%s
+X 1 numeros.ads
+1K9*Numeros 5l5 5e12
+3I12*Numero{positive}
+
