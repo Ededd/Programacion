@@ -1,4 +1,4 @@
-with tablero.Interfaz, matrices_casillas, casillas, ids_grupo_casillas;
+with tablero.Interfaz, matrices_casillas, casillas;-- ids_grupo_casillas;
 package body Tablero is
 
    Tablero_De_Juego: Matrices_Casillas.Matriz;

@@ -13,9 +13,8 @@ RV NO_SECONDARY_STACK
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U tablero%b		tablero.adb		0eb33762 NE OO PK
+U tablero%b		tablero.adb		31151d10 NE OO PK
 W casillas%s		casillas.adb		casillas.ali
-W ids_grupo_casillas%s	ids_grupo_casillas.adb	ids_grupo_casillas.ali
 W matrices_casillas%s	matrices_casillas.adb	matrices_casillas.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 W tablero%s		tablero.adb		tablero.ali
@@ -62,15 +61,13 @@ D s-traent.ads		20140406181354 b5116092 system.traceback_entries%s
 D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
 D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
 D tablero.ads		20170227195930 cb3c87b4 tablero%s
-D tablero.adb		20170228111922 6c18da00 tablero%b
+D tablero.adb		20170228113418 dce3f14b tablero%b
 D tablero-interfaz.ads	20170227195930 fdf5f71f tablero.interfaz%s
 X 9 casillas.ads
 2K9*Casillas 32e16 37|1w43 22r25 26r20 28r43 28r69
 4R9*Casilla 31e17 37|22r34
 9V10*Esta_Libre{boolean} 37|26s29
 15V10*Valor{16|3I12} 37|28s52 28s78
-X 10 ids_grupo_casillas.ads
-2K9*Ids_Grupo_Casillas 29e23 37|1w53
 X 11 indices.ads
 1K9*Indices 7e12 36|1w15 20r38 23r38 37|24r19 25r25 43r38 48r38
 3I12*Indice{positive} 36|20r46 23r46 37|24r27 25r33 43r46 48r46
