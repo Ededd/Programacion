@@ -1,0 +1,29 @@
+isbn_completo.adb:9:10: missing argument for parameter "Num" in call to "Es_Isbn_Sc" declared at es_isbn_sc.adb:3
+isbn_completo.adb:11:46: "I" is undefined (more references follow)
+isbn_completo.adb:11:49: "Dig_I" is undefined
+isbn_completo.adb:11:57: missing ")"
+isbn_completo.adb:12:52: "Digi_I" is undefined (more references follow)
+isbn_completo.adb:12:61: missing ")"
+isbn_completo.adb:15:40: procedure name cannot be used as operand
+isbn_completo.adb:15:53: ";" should be ","
+isbn_completo.adb:16:43: procedure name cannot be used as operand
+isbn_completo.adb:16:56: ";" should be ","
+isbn_completo.adb:17:46: procedure name cannot be used as operand
+isbn_completo.adb:17:59: ";" should be ","
+isbn_completo.adb:18:49: procedure name cannot be used as operand
+isbn_completo.adb:18:62: ";" should be ","
+isbn_completo.adb:19:52: procedure name cannot be used as operand
+isbn_completo.adb:19:65: ";" should be ","
+isbn_completo.adb:22:55: procedure name cannot be used as operand
+isbn_completo.adb:22:68: ";" should be ","
+isbn_completo.adb:23:58: procedure name cannot be used as operand
+isbn_completo.adb:23:71: ";" should be ","
+isbn_completo.adb:27:37: "Get" is not visible
+isbn_completo.adb:27:37: non-visible declaration at a-tiinio.ads:70, instance at a-inteio.ads:18
+isbn_completo.adb:27:37: non-visible declaration at a-tiinio.ads:55, instance at a-inteio.ads:18
+isbn_completo.adb:27:37: non-visible declaration at a-tiinio.ads:50, instance at a-inteio.ads:18
+isbn_completo.adb:27:37: non-visible declaration at a-textio.ads:240
+isbn_completo.adb:27:37: non-visible declaration at a-textio.ads:239
+isbn_completo.adb:27:37: non-visible declaration at a-textio.ads:206
+isbn_completo.adb:27:37: non-visible declaration at a-textio.ads:205
+gprbuild: *** compilation phase failed
