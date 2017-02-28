@@ -16,9 +16,9 @@ package body Matrices_Casillas is
                MC(Fila, Columna) := C;
             end if;
          end if;
-            Ada.Text_Io.Skip_Line(Fich);
-         end loop;
- end loop;
+      end loop;
+      Ada.Text_Io.Skip_Line(Fich);
+   end loop;
       exception
          when others => raise error_de_lectura;
       end Leer_Inicial;
