@@ -84,3 +84,24 @@ gprbuild: *** compilation phase failed
 punteros_iconos.ads:1:06: file "gwindows.ads" not found
 punteros_iconos.ads:3:33: "GWindows" is undefined
 gprbuild: *** compilation phase failed
+tablero-interfaz.adb:2:06: file "gwindows.ads" not found
+tablero-interfaz.adb:3:06: file "gwindows.ads" not found
+tablero-interfaz.adb:5:06: file "gwindows.ads" not found
+tablero-interfaz.adb:6:06: file "gwindows.ads" not found
+tablero-interfaz.adb:7:06: file "gwindows.ads" not found
+tablero-interfaz.adb:8:06: file "gwindows.ads" not found
+tablero-interfaz.adb:9:06: file "gwindows.ads" not found
+tablero-interfaz.adb:10:06: file "gwindows.ads" not found
+tablero-interfaz.adb:11:06: file "gwindows.ads" not found
+tablero-interfaz.adb:12:06: file "gwindows.ads" not found
+tablero-interfaz.adb:13:06: file "gwindows.ads" not found
+tablero-interfaz.adb:14:06: file "gwindows.ads" not found
+tablero-interfaz.adb:16:06: file "gwindows.ads" not found
+tablero-interfaz.adb:16:06: "Tablero.Interfaz (body)" depends on "Casillas_Iconos (spec)"
+tablero-interfaz.adb:16:06: "Casillas_Iconos (spec)" depends on "Gwindows (spec)"
+tablero-interfaz.adb:16:23: "Tablero.Interfaz (body)" depends on "Coleccion_Iconos (spec)"
+tablero-interfaz.adb:16:23: "Coleccion_Iconos (spec)" depends on "Punteros_Iconos (spec)"
+tablero-interfaz.adb:16:23: "Punteros_Iconos (spec)" depends on "Gwindows (spec)"
+casillas_iconos.ads:7:24: "Gwindows" is undefined (more references follow)
+compilation abandoned due to previous error
+gprbuild: *** compilation phase failed
