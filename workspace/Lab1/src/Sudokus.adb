@@ -21,12 +21,12 @@ package body Sudokus is
    end Leer;
       function Identificador (S: in Sudoku) return String is
       begin
-         return Sudokus.Sudoku.Identificacion;
+         return S.Identificacion;
       end Identificador;
 
       function Dificultad (S: in Sudoku) return Niveles_Dificultad.Nivel is
       begin
-         return Sudokus.Sudoku.Niveles_De_Dificultad;
+         return S.Niveles_De_Dificultad;
       end Dificultad;
 
       function  Matriz (S: in Sudoku) return Matrices_Casillas.Matriz is
