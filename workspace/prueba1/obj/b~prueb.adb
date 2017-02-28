@@ -241,11 +241,11 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\Leire\workspace\prueba1\obj\Contar_Digitos.o
-   --   C:\Users\Leire\workspace\prueba1\obj\Es_Capicua.o
-   --   C:\Users\Leire\workspace\prueba1\obj\prueb.o
-   --   -LC:\Users\Leire\workspace\prueba1\obj\
-   --   -LC:\Users\Leire\workspace\prueba1\obj\
+   --   C:\Users\PC\SparkleShare\Programacion\workspace\prueba1\obj\Contar_Digitos.o
+   --   C:\Users\PC\SparkleShare\Programacion\workspace\prueba1\obj\Es_Capicua.o
+   --   C:\Users\PC\SparkleShare\Programacion\workspace\prueba1\obj\prueb.o
+   --   -LC:\Users\PC\SparkleShare\Programacion\workspace\prueba1\obj\
+   --   -LC:\Users\PC\SparkleShare\Programacion\workspace\prueba1\obj\
    --   -LC:/GNAT/2013/lib/gcc/i686-pc-mingw32/4.7.4/adalib/
    --   -static
    --   -lgnat

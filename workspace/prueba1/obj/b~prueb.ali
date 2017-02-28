@@ -28,8 +28,8 @@ W system%s		system.ads		system.ali
 D ada.ads		20130417131022 3ffc8e18
 D a-except.ads		20130417131018 10fcae55
 D a-unccon.ads		20130417131022 f9eb8f06
-D b~prueb.ads		20170206185502 41a829d0
-D b~prueb.adb		20170206185502 583b6fc5
+D b~prueb.ads		20170228115020 41a829d0
+D b~prueb.adb		20170228115020 583b6fc5
 D system.ads		20130417131036 5fc8ae56
 D s-parame.ads		20130417131032 b6e20cc0
 D s-stalib.ads		20130417131032 f78bcf95

@@ -1,20 +1,12 @@
-V "GNAT Lib v2014"
+V "GNAT Lib v2013"
 M P W=b
-A -gnatA
 A -g
 A -g
 A -gnato
 A -gnatwa
 A -gnatQ
 A -gnat05
-A -gnatc
-A -gnatQ
-A -gnatI
-A -gnatws
-A -gnatyN
-A -gnatVn
-A -mtune=generic
-A -march=pentiumpro
+A -gnatA
 P CE NO ZX
 
 RN
@@ -30,50 +22,61 @@ W digito_de_control%b	digito_de_control.adb	digito_de_control.ali
 W digito_i%b		digito_i.adb		digito_i.ali
 W es_isbn_sc%b		es_isbn_sc.adb		es_isbn_sc.ali
 
-D ada.ads		20140406181354 3ffc8e18 ada%s
-D a-finali.ads		20140406181358 69f99942 ada.finalization%s
-D a-inteio.ads		20140406181358 f64b89a4 ada.integer_text_io%s
-D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
-D a-stream.ads		20140406181354 1a984740 ada.streams%s
-D a-textio.ads		20140406181358 386df5d4 ada.text_io%s
-D a-tiinio.ads		20140406181358 aa04e5d6 ada.text_io.integer_io%s
-D contar_digitos.adb	20170227195930 22e7efc0 contar_digitos%b
-D digito_de_control.adb	20170227195930 31a2f1fd digito_de_control%b
-D digito_i.adb		20170227195930 de1f55ab digito_i%b
-D es_isbn_sc.adb	20170227195930 d69d614a es_isbn_sc%b
-D interfac.ads		20140406181358 69adb1b9 interfaces%s
-D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
-D isbn_completo.adb	20170227195930 0b4a3878 isbn_completo%b
-D system.ads		20140406181358 5fc8ae56 system%s
-D s-crtl.ads		20140406181356 2c012597 system.crtl%s
-D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s
-D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
-D s-finroo.ads		20140406181358 4ff27390 system.finalization_root%s
-D s-parame.ads		20140406181358 06da98b2 system.parameters%s
-D s-pooglo.ads		20140406181356 542f33d0 system.pool_global%s
-D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
-D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
-D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+D ada.ads		20130417131022 3ffc8e18
+D a-except.ads		20130417131018 10fcae55
+D a-finali.ads		20130417131020 52ecdc1b
+D a-inteio.ads		20130417131020 f64b89a4
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-tags.ads		20130417131022 6c0509d0
+D a-textio.ads		20130417131022 386df5d4
+D a-tiinio.ads		20130417131022 aa04e5d6
+D a-unccon.ads		20130417131022 f9eb8f06
+D contar_digitos.adb	20170227183020 22e7efc0
+D digito_de_control.adb	20170227183020 31a2f1fd
+D digito_i.adb		20170227183020 de1f55ab
+D es_isbn_sc.adb	20170227183020 d69d614a
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D isbn_completo.adb	20170227183454 0b4a3878
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-exctab.ads		20130417131028 66e51330
+D s-expint.ads		20130417131028 192336fc
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-soflin.ads		20130417131032 24c8153c
+D s-stache.ads		20130417131032 596fc1b4
+D s-stalib.ads		20130417131032 f78bcf95
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130417131032 afc5dc80
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-traent.ads		20130417131032 5221ee41
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-wchcon.ads		20130417131034 bfeb2e3d
 X 1 ada.ads
-16K9*Ada 19e8 14|2r6 2r27 10r10 11r10 12r13 13r16 14r16 15r16 16r19 17r22
+16K9*Ada 19e8 17|2r6 2r27 10r10 11r10 12r13 13r16 14r16 15r16 16r19 17r22
 . 18r25 19r28 20r31 21r31 22r31 23r34
-X 3 a-inteio.ads
-18K13*Integer_Text_IO[7|46] 14|2w10 11r14 12r17 15r20 16r23 17r26 18r29 19r32
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|45] 17|2w10 11r14 12r17 15r20 16r23 17r26 18r29 19r32
 . 22r35 23r38
-X 6 a-textio.ads
-49K13*Text_IO 471e16 14|2w31 10r14 13r20 14r20 20r35 21r35
-166U14*New_Line 14|13s28 20s43
-242U14*Put 14|10s22 14s28 21s43
-X 7 a-tiinio.ads
-66U14*Put 14|11s30[3|18] 12s33[3|18] 15s36[3|18] 16s39[3|18] 17s42[3|18]
-. 18s45[3|18] 19s48[3|18] 22s51[3|18] 23s54[3|18]
-X 9 digito_de_control.adb
-3U11*Digito_De_Control 14|1w16
-X 10 digito_i.adb
-1U11*Digito_I 14|1w6 11r34 12r37 15r40 16r43 17r46 18r49 19r52 22r55 23r58
-X 11 es_isbn_sc.adb
-3V10*Es_ISBN_SC{boolean} 14|1w35 9r10
-X 14 isbn_completo.adb
+X 8 a-textio.ads
+49K13*Text_IO 471e16 17|2w31 10r14 13r20 14r20 20r35 21r35
+166U14*New_Line 17|13s28 20s43
+242U14*Put 17|10s22 14s28 21s43
+X 9 a-tiinio.ads
+65U14*Put 17|11s30[4|18] 12s33[4|18] 15s36[4|18] 16s39[4|18] 17s42[4|18]
+. 18s45[4|18] 19s48[4|18] 22s51[4|18] 23s54[4|18]
+X 12 digito_de_control.adb
+3U11*Digito_De_Control 17|1w16
+X 13 digito_i.adb
+1U11*Digito_I 17|1w6 11r34 12r37 15r40 16r43 17r46 18r49 19r52 22r55 23r58
+X 14 es_isbn_sc.adb
+3V10*Es_ISBN_SC{boolean} 17|1w35 9r10
+X 17 isbn_completo.adb
 4U11*Isbn_Completo 4b11 30l32 30t45
 5i4 N{integer} 8r10 11r43 12r46 15r49 16r52 17r55 18r58 19r61 22r64 23r67
 

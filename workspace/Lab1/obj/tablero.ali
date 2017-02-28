@@ -1,4 +1,4 @@
-V "GNAT Lib v2014"
+V "GNAT Lib v2013"
 A -g
 A -g
 A -gnato
@@ -11,9 +11,9 @@ P SS ZX
 RN
 RV NO_SECONDARY_STACK
 RV NO_IMPLEMENTATION_PRAGMAS
-RV SPARK_05
+RV SPARK
 
-U tablero%b		tablero.adb		31151d10 NE OO PK
+U tablero%b		tablero.adb		4c7d481f NE OO PK
 W casillas%s		casillas.adb		casillas.ali
 W matrices_casillas%s	matrices_casillas.adb	matrices_casillas.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
@@ -25,44 +25,44 @@ W indices%s		indices.ads		indices.ali
 W numeros%s		numeros.ads		numeros.ali
 W sudokus%s		sudokus.adb		sudokus.ali
 
-D ada.ads		20140406181354 3ffc8e18 ada%s
-D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
-D a-finali.ads		20140406181358 69f99942 ada.finalization%s
-D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
-D a-stream.ads		20140406181354 1a984740 ada.streams%s
-D a-tags.ads		20140406181356 dc4d0634 ada.tags%s
-D a-textio.ads		20140406181358 386df5d4 ada.text_io%s
-D a-unccon.ads		20140406181358 f9eb8f06 ada.unchecked_conversion%s
-D casillas.ads		20170227195930 8d6d39c1 casillas%s
-D ids_grupo_casillas.ads  20170227195930 8f5d0139 ids_grupo_casillas%s
-D indices.ads		20170227195930 d42b7d02 indices%s
-D interfac.ads		20140406181358 69adb1b9 interfaces%s
-D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
-D matrices_casillas.ads	20170227195930 5652a531 matrices_casillas%s
-D niveles_dificultad.ads  20170227195930 b1764c84 niveles_dificultad%s
-D numeros.ads		20170227195930 a4214673 numeros%s
-D sudokus.ads		20170228113204 b997d79c sudokus%s
-D system.ads		20140406181358 5fc8ae56 system%s
-D s-crtl.ads		20140406181356 2c012597 system.crtl%s
-D s-exctab.ads		20140406181354 54135002 system.exception_table%s
-D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s
-D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
-D s-finroo.ads		20140406181358 4ff27390 system.finalization_root%s
-D s-parame.ads		20140406181358 06da98b2 system.parameters%s
-D s-pooglo.ads		20140406181356 542f33d0 system.pool_global%s
-D s-secsta.ads		20140406181358 86a2856d system.secondary_stack%s
-D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
-D s-stache.ads		20140406181354 a37c21ec system.stack_checking%s
-D s-stalib.ads		20140406181354 fa0a3617 system.standard_library%s
-D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
-D s-stoele.adb		20140406181354 ed88f8fb system.storage_elements%b
-D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
-D s-traent.ads		20140406181354 b5116092 system.traceback_entries%s
-D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
-D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
-D tablero.ads		20170227195930 cb3c87b4 tablero%s
-D tablero.adb		20170228113448 dce3f14b tablero%b
-D tablero-interfaz.ads	20170227195930 fdf5f71f tablero.interfaz%s
+D ada.ads		20130417131022 3ffc8e18
+D a-except.ads		20130417131018 10fcae55
+D a-finali.ads		20130417131020 52ecdc1b
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-tags.ads		20130417131022 6c0509d0
+D a-textio.ads		20130417131022 386df5d4
+D a-unccon.ads		20130417131022 f9eb8f06
+D casillas.ads		20170227183020 8d6d39c1
+D ids_grupo_casillas.ads  20170227183020 8f5d0139
+D indices.ads		20170227183020 d42b7d02
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D matrices_casillas.ads	20170228114814 2b3af03e
+D niveles_dificultad.ads  20170227185956 b1764c84
+D numeros.ads		20170227183020 a4214673
+D sudokus.ads		20170228114814 b997d79c
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-exctab.ads		20130417131028 66e51330
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-secsta.ads		20130417131032 eea35a36
+D s-soflin.ads		20130417131032 24c8153c
+D s-stache.ads		20130417131032 596fc1b4
+D s-stalib.ads		20130417131032 f78bcf95
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130417131032 afc5dc80
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-traent.ads		20130417131032 5221ee41
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D tablero.ads		20170227185956 cb3c87b4
+D tablero.adb		20170228114814 dce3f14b
+D tablero-interfaz.ads	20170227185956 fdf5f71f
 X 9 casillas.ads
 2K9*Casillas 32e16 37|1w43 22r25 26r20 28r43 28r69
 4R9*Casilla 31e17 37|22r34
@@ -72,7 +72,7 @@ X 11 indices.ads
 1K9*Indices 7e12 36|1w15 20r38 23r38 37|24r19 25r25 43r38 48r38
 3I12*Indice{positive} 36|20r46 23r46 37|24r27 25r33 43r46 48r46
 X 14 matrices_casillas.ads
-5K9*Matrices_Casillas 30e22 37|1w24 4r22 26r40 27r51 27r121
+5K9*Matrices_Casillas 33e22 37|1w24 4r22 26r40 27r51 27r121
 7A9*Matriz(9|4R9) 37|4r40
 17V13*Casilla{9|4R9} 37|26s58 27s69 27s139
 X 15 niveles_dificultad.ads
@@ -92,7 +92,7 @@ X 36 tablero.ads
 4U14*Cargar_Sudoku 4>28 37|7b14 10l8 10t21
 4r28 S{17|7R9} 37|7b29 9r37
 7U14*Jugar 7>21 7<48 37|12b14 18l8 18t13
-7a21 Nombre_Jugador{string} 37|12b21 14r29
+7s21 Nombre_Jugador{string} 37|12b21 14r29
 7b48 Fin_Correcto{boolean} 37|12b48 16m10
 17V13*Solucion_Correcta{boolean} 37|20b13 41l8 41t25
 20U14*Anotar_Numero 20>29 20>32 20>54 37|43b14 46l8 46t21

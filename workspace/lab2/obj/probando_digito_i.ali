@@ -1,69 +1,71 @@
-V "GNAT Lib v2014"
+V "GNAT Lib v2013"
 M P W=b
-A -gnatA
 A -g
 A -g
 A -gnato
 A -gnatwa
 A -gnatQ
 A -gnat05
-A -gnatc
-A -gnatQ
-A -gnatI
-A -gnatws
-A -gnatyN
-A -gnatVn
-A -mtune=generic
-A -march=pentiumpro
-P NO ZX
+A -gnatA
+P ZX
 
 RN
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
-RV NO_ELABORATION_CODE
-RV SPARK_05
+RV SPARK
 
-U probando_digito_i%b	probando_digito_i.adb	5c0da97d OO SU KU
+U probando_digito_i%b	probando_digito_i.adb	5c0da97d NE OO SU KU
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W digito_i%b		digito_i.adb		digito_i.ali
 
-D ada.ads		20140406181354 3ffc8e18 ada%s
-D a-finali.ads		20140406181358 69f99942 ada.finalization%s
-D a-inteio.ads		20140406181358 f64b89a4 ada.integer_text_io%s
-D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
-D a-stream.ads		20140406181354 1a984740 ada.streams%s
-D a-textio.ads		20140406181358 386df5d4 ada.text_io%s
-D a-tiinio.ads		20140406181358 aa04e5d6 ada.text_io.integer_io%s
-D digito_i.adb		20170227195930 de1f55ab digito_i%b
-D interfac.ads		20140406181358 69adb1b9 interfaces%s
-D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
-D probando_digito_i.adb	20170227195930 4c3480a6 probando_digito_i%b
-D system.ads		20140406181358 5fc8ae56 system%s
-D s-crtl.ads		20140406181356 2c012597 system.crtl%s
-D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s
-D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
-D s-finroo.ads		20140406181358 4ff27390 system.finalization_root%s
-D s-parame.ads		20140406181358 06da98b2 system.parameters%s
-D s-pooglo.ads		20140406181356 542f33d0 system.pool_global%s
-D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
-D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
-D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+D ada.ads		20130417131022 3ffc8e18
+D a-except.ads		20130417131018 10fcae55
+D a-finali.ads		20130417131020 52ecdc1b
+D a-inteio.ads		20130417131020 f64b89a4
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-tags.ads		20130417131022 6c0509d0
+D a-textio.ads		20130417131022 386df5d4
+D a-tiinio.ads		20130417131022 aa04e5d6
+D a-unccon.ads		20130417131022 f9eb8f06
+D digito_i.adb		20170227183020 de1f55ab
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D probando_digito_i.adb	20170227183020 4c3480a6
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-exctab.ads		20130417131028 66e51330
+D s-expint.ads		20130417131028 192336fc
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-soflin.ads		20130417131032 24c8153c
+D s-stache.ads		20130417131032 596fc1b4
+D s-stalib.ads		20130417131032 f78bcf95
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130417131032 afc5dc80
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-traent.ads		20130417131032 5221ee41
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-wchcon.ads		20130417131034 bfeb2e3d
 X 1 ada.ads
-16K9*Ada 19e8 11|7r6 7r19 8r5 8r18
-X 3 a-inteio.ads
-18K13*Integer_Text_IO[7|46] 11|7w23 8r22
-X 6 a-textio.ads
-49K13*Text_IO 471e16 11|7w10 8r9
-166U14*New_Line 11|13s4 15s4 19s7 21s4 23s4 27s7 30s4
-242U14*Put 11|17s7 17s35 25s7 25s35
-263U14*Put_Line 11|14s4 22s4 30s14
-X 7 a-tiinio.ads
-66U14*Put 11|17s25[3|18] 18s33[3|18] 25s25[3|18] 26s34[3|18]
-X 8 digito_i.adb
-1U11*Digito_I 11|5w6 18s7 26s7
-X 11 probando_digito_i.adb
+16K9*Ada 19e8 14|7r6 7r19 8r5 8r18
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|45] 14|7w23 8r22
+X 8 a-textio.ads
+49K13*Text_IO 471e16 14|7w10 8r9
+166U14*New_Line 14|13s4 15s4 19s7 21s4 23s4 27s7 30s4
+242U14*Put 14|17s7 17s35 25s7 25s35
+263U14*Put_Line 14|14s4 22s4 30s14
+X 9 a-tiinio.ads
+65U14*Put 14|17s25[4|18] 18s33[4|18] 25s25[4|18] 26s34[4|18]
+X 11 digito_i.adb
+1U11*Digito_I 14|5w6 18s7 26s7
+X 14 probando_digito_i.adb
 10U11*Probando_Digito_I 10b11 31l5 31t22
 11i4 D{integer} 18m29 18r37 26m29 26r38
 16i8 I{integer} 17r29 18r27

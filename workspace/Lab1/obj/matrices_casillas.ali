@@ -1,11 +1,19 @@
-V "GNAT Lib v2014"
+V "GNAT Lib v2013"
+A -gnatA
 A -g
 A -g
 A -gnato
 A -gnatwa
 A -gnatQ
 A -gnat05
-A -gnatA
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
 P CE NO ZX
 
 RN
@@ -15,39 +23,39 @@ RV NO_EXCEPTIONS
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
-RV SPARK_05
+RV SPARK
 
 U matrices_casillas%b	matrices_casillas.adb	bc8830ec OO PK
 W numeros%s		numeros.ads		numeros.ali
 
-D ada.ads		20140406181354 3ffc8e18 ada%s
-D a-finali.ads		20140406181358 69f99942 ada.finalization%s
-D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
-D a-stream.ads		20140406181354 1a984740 ada.streams%s
-D a-textio.ads		20140406181358 386df5d4 ada.text_io%s
-D casillas.ads		20170227195930 8d6d39c1 casillas%s
-D ids_grupo_casillas.ads  20170227195930 8f5d0139 ids_grupo_casillas%s
-D indices.ads		20170227195930 d42b7d02 indices%s
-D interfac.ads		20140406181358 69adb1b9 interfaces%s
-D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
-D matrices_casillas.ads	20170228113640 2b3af03e matrices_casillas%s
-D matrices_casillas.adb	20170228114212 339386a1 matrices_casillas%b
-D numeros.ads		20170227195930 a4214673 numeros%s
-D system.ads		20140406181358 5fc8ae56 system%s
-D s-crtl.ads		20140406181356 2c012597 system.crtl%s
-D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s
-D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
-D s-finroo.ads		20140406181358 4ff27390 system.finalization_root%s
-D s-parame.ads		20140406181358 06da98b2 system.parameters%s
-D s-pooglo.ads		20140406181356 542f33d0 system.pool_global%s
-D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
-D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
-D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+D ada.ads		20130417131022 3ffc8e18
+D a-finali.ads		20130417131020 52ecdc1b
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-textio.ads		20130417131022 386df5d4
+D casillas.ads		20170227183020 8d6d39c1
+D ids_grupo_casillas.ads  20170227183020 8f5d0139
+D indices.ads		20170227183020 d42b7d02
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D matrices_casillas.ads	20170228114814 2b3af03e
+D matrices_casillas.adb	20170228114814 339386a1
+D numeros.ads		20170227183020 a4214673
+D system.ads		20130417131036 5fc8ae56
+D s-crtl.ads		20130417131028 dfcfca61
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-stoele.ads		20130417131032 facd7d98
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-wchcon.ads		20130417131034 bfeb2e3d
 X 1 ada.ads
 16K9*Ada 19e8 11|4r6 9r42 12r39 12|4r41 10r10 20r7 25r37 30r10 39r7
 X 5 a-textio.ads
 49K13*Text_IO 471e16 11|4w10 9r46 12r43 12|4r45 10r14 20r11 25r41 30r14 39r11
-52P9*File_Type 11|9r54 12r51 12|4r53 25r49
+52P9*File_Type(369R9) 11|9r54 12r51 12|4r53 25r49
 168U14*Skip_Line 12|20s19 39s19
 239U14*Get 12|10s22 30s22
 X 6 casillas.ads
@@ -73,7 +81,7 @@ X 8 indices.ads
 3I12*Indice{positive} 11|17r51 20r65 32r34 32r50 12|8r24 9r30 28r26 29r30
 . 46r51 53r44 61r24 63r39 65r24 72r42 74r24 81r41 83r34 84r34
 X 11 matrices_casillas.ads
-5K9*Matrices_Casillas 32E9 33l5 33e22 12|2b14 114l5 114t22
+5K9*Matrices_Casillas 33l5 33e22 12|2b14 114l5 114t22
 7A9*Matriz(6|4R9) 9r73 12r70 17r29 20r40 23r37 32c9 12|4r72 26r31 46r26 52r37
 . 59r34
 9U14*Leer_Inicial 9=28 9<65 12|4b14 24l11 24t23

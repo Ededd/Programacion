@@ -1,28 +1,23 @@
-V "GNAT Lib v2014"
-A -gnatA
+V "GNAT Lib v2013"
 A -g
 A -g
 A -gnato
 A -gnatwa
 A -gnatQ
 A -gnat05
-A -gnatc
-A -gnatQ
-A -gnatI
-A -gnatws
-A -gnatyN
-A -gnatVn
-A -mtune=generic
-A -march=pentiumpro
-P NO ZX
+A -gnatA
+P ZX
 
 RN
 RV NO_IMPLEMENTATION_PRAGMAS
-RV NO_ELABORATION_CODE
+RV SPARK
 
-U digito_i%b		digito_i.adb		de1f55ab OO SU KU
+U digito_i%b		digito_i.adb		de1f55ab NE OO SU KU
+W system.exp_int%s	s-expint.adb		s-expint.ali
 
-D digito_i.adb		20170227195930 de1f55ab digito_i%b
+D digito_i.adb		20170227183020 de1f55ab
+D system.ads		20130417131036 5fc8ae56
+D s-expint.ads		20130417131028 192336fc
 X 1 digito_i.adb
 1U11*Digito_I 1b11 2>7 3>7 4<7 10l7 10t15
 2i7 Num{integer} 6r11
