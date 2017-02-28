@@ -32,7 +32,7 @@ package body Tablero is
                                        end loop;
                                        end loop;
 
-                            if contador = 81 then
+                            if cont = 81 then
                               return true;
                               else
                               return false;

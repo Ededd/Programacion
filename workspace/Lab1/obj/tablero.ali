@@ -21,7 +21,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U tablero%b		tablero.adb		aa4c7dff OO PK
+U tablero%b		tablero.adb		134e088c OO PK
 W casillas%s		casillas.adb		casillas.ali
 W ids_grupo_casillas%s	ids_grupo_casillas.adb	ids_grupo_casillas.ali
 W matrices_casillas%s	matrices_casillas.adb	matrices_casillas.ali
@@ -53,7 +53,7 @@ D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
 D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
 D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
 D tablero.ads		20170227195930 cb3c87b4 tablero%s
-D tablero.adb		20170228111316 c8e7909d tablero%b
+D tablero.adb		20170228111328 71e5e5ee tablero%b
 D tablero-interfaz.ads	20170227195930 fdf5f71f tablero.interfaz%s
 X 6 casillas.ads
 2K9*Casillas 32e16 26|1w43 21r25 25r20 27r43 27r69
@@ -100,7 +100,7 @@ X 25 tablero.ads
 X 26 tablero.adb
 4a4 Tablero_De_Juego{11|7A9} 25r66 26r77
 5r4 Sudoku_Actual{14|7R9} 9m22 14r67 14r102 26r162
-20i7 Contador{integer} 28m40 28r52
+20i7 Contador{integer} 28m40 28r52 35r32
 21r7 Cas_Tab{6|4R9} 26m40 27r58
 21r16 Cas_Sud{6|4R9} 26m110 27r84
 23i11 Fila{8|3I12} 25r84 26r95 26r177
