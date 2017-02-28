@@ -16,7 +16,7 @@ begin
                MC(Fila, Columna) := C;
             end if;
          end if;
-         Ada.Text_Io.Skip_Line(Fich);]
+         Ada.Text_Io.Skip_Line(Fich);
       exception
                when others => raise error_de_lectura;
                   end loop;
