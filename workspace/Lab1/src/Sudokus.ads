@@ -22,6 +22,9 @@ package Sudokus is
    procedure Copiar (S1: out Sudoku; S2: in Sudoku);
    -- Copia el contenido del sudoku S2 en S1.
 
+   Error_De_Lectura: exception;
+   Numero_Erroneo: exception;
+
 private
    type Sudoku is record
       Identificacion: String (1..4);

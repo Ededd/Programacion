@@ -15,7 +15,7 @@ package body Sudokus is
       S.Niveles_De_Dificultad:=integer'value(Nivel);
       S.Matriz:=Mat;
 
-   exceptionc
+   exception
       when Ada.Text_Io.End_Error => raise Error_De_Lectura;
 
    end Leer;
