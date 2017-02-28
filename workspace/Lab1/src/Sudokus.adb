@@ -41,4 +41,4 @@ package body Sudokus is
          S1.Matriz := S2.Matriz;
    end Copiar;
 
-   end Sudoku;
+   end Sudokus;
