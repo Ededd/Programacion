@@ -1,3 +1,0 @@
-gcc -c -g -g -gnato -gnatwa -gnatQ -gnat05 -I- -gnatA C:\Users\PC\SparkleShare\Programacion\workspace\Lab1\src\Tablero.adb
-tablero.adb:1:53: warning: unit "ids_grupo_casillas" is not referenced
-tablero.adb:4:04: warning: variable "Tablero_De_Juego" is read but never assigned
