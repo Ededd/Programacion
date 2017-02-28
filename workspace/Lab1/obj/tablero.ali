@@ -21,7 +21,7 @@ W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 W tablero%s		tablero.adb		tablero.ali
 W tablero.interfaz%s	tablero-interfaz.adb	tablero-interfaz.ali
 
-U tablero%s		tablero.ads		e3fe6075 EE NE OO PK
+U tablero%s		tablero.ads		02a16b59 EE NE OO PK
 W indices%s		indices.ads		indices.ali
 W numeros%s		numeros.ads		numeros.ali
 W sudokus%s		sudokus.adb		sudokus.ali
@@ -42,7 +42,7 @@ D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
 D matrices_casillas.ads	20170227195930 5652a531 matrices_casillas%s
 D niveles_dificultad.ads  20170227195930 b1764c84 niveles_dificultad%s
 D numeros.ads		20170227195930 a4214673 numeros%s
-D sudokus.ads		20170228110328 58c8dcb0 sudokus%s
+D sudokus.ads		20170228113204 b997d79c sudokus%s
 D system.ads		20140406181358 5fc8ae56 system%s
 D s-crtl.ads		20140406181356 2c012597 system.crtl%s
 D s-exctab.ads		20140406181354 54135002 system.exception_table%s
@@ -84,8 +84,8 @@ X 16 numeros.ads
 1K9*Numeros 5e12 36|1w24 20r60 37|43r60
 3I12*Numero{positive} 36|20r68 37|43r68
 X 17 sudokus.ads
-5K9*Sudokus 31e12 36|1w6 4r34 37|5r19 7r35 9r7 14r45 14r83 27r147
-7R9*Sudoku 30e14 36|4r42 37|5r27 7r43
+5K9*Sudokus 34e12 36|1w6 4r34 37|5r19 7r35 9r7 14r45 14r83 27r147
+7R9*Sudoku 33e14 36|4r42 37|5r27 7r43
 12V13*Identificador{string} 37|14s53
 15V13*Dificultad{15|3I12} 37|14s91
 19V13*Matriz{14|7A9} 37|27s155

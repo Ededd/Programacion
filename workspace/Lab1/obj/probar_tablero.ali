@@ -16,7 +16,7 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U probar_tablero%b	probar_tablero.adb	303c24fb NE OO SU
+U probar_tablero%b	probar_tablero.adb	d1632fd7 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W sudokus%s		sudokus.adb		sudokus.ali
@@ -41,7 +41,7 @@ D matrices_casillas.ads	20170227195930 5652a531 matrices_casillas%s
 D niveles_dificultad.ads  20170227195930 b1764c84 niveles_dificultad%s
 D numeros.ads		20170227195930 a4214673 numeros%s
 D probar_tablero.adb	20170227195930 9ba58a2b probar_tablero%b
-D sudokus.ads		20170228110328 58c8dcb0 sudokus%s
+D sudokus.ads		20170228113204 b997d79c sudokus%s
 D system.ads		20140406181358 5fc8ae56 system%s
 D s-conca2.ads		20140406181358 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20140406181356 2c012597 system.crtl%s
@@ -79,8 +79,8 @@ X 17 probar_tablero.adb
 5r4 S{18|7R9} 9m28 12r27
 6b4 Fin_Correcto{boolean} 18m33 20r41
 X 18 sudokus.ads
-5K9*Sudokus 17|1w6 5r8 9r4 18|31e12
-7R9*Sudoku 17|5r16 18|30e14
+5K9*Sudokus 17|1w6 5r8 9r4 18|34e12
+7R9*Sudoku 17|5r16 18|33e14
 9U14*Leer 17|9s12
 X 38 tablero.ads
 2K9*Tablero 17|1w15 12r4 18r4 38|34e12
