@@ -48,7 +48,7 @@ package body Tablero is
    procedure Borrar_Numero (F, C: in Indices.Indice) is
    begin
       null;
-   end borrar_numero;
+   end boorrar_numero;
 
    procedure ayudar is
    begin
