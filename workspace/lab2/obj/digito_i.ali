@@ -1,4 +1,4 @@
-V "GNAT Lib v2013"
+V "GNAT Lib v2014"
 A -g
 A -g
 A -gnato
@@ -10,14 +10,13 @@ P ZX
 
 RN
 RV NO_IMPLEMENTATION_PRAGMAS
-RV SPARK
 
 U digito_i%b		digito_i.adb		de1f55ab NE OO SU KU
 W system.exp_int%s	s-expint.adb		s-expint.ali
 
-D digito_i.adb		20170227183020 de1f55ab
-D system.ads		20130417131036 5fc8ae56
-D s-expint.ads		20130417131028 192336fc
+D digito_i.adb		20170227195930 de1f55ab digito_i%b
+D system.ads		20140406181358 5fc8ae56 system%s
+D s-expint.ads		20140406181358 192336fc system.exp_int%s
 X 1 digito_i.adb
 1U11*Digito_I 1b11 2>7 3>7 4<7 10l7 10t15
 2i7 Num{integer} 6r11

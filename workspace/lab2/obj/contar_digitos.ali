@@ -1,4 +1,4 @@
-V "GNAT Lib v2013"
+V "GNAT Lib v2014"
 A -g
 A -g
 A -gnato
@@ -13,8 +13,8 @@ RV NO_IMPLEMENTATION_PRAGMAS
 
 U contar_digitos%b	contar_digitos.adb	22e7efc0 NE OO SU KU
 
-D contar_digitos.adb	20170227183020 22e7efc0
-D system.ads		20130417131036 5fc8ae56
+D contar_digitos.adb	20170227195930 22e7efc0 contar_digitos%b
+D system.ads		20140406181358 5fc8ae56 system%s
 X 1 contar_digitos.adb
 1V10*Contar_Digitos{integer} 1b10 2>7 13l5 13t19
 2i7 Num{integer} 5r19

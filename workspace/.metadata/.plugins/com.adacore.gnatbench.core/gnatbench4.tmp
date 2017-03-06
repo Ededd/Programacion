@@ -1,0 +1,12 @@
+matrices_casillas.adb:30:31: "Cifra" is undefined (more references follow)
+matrices_casillas.adb:31:25: "C" is undefined (more references follow)
+matrices_casillas.adb:33:30: missing ";"
+matrices_casillas.adb:38:06: missing "end if;" for "if" at line 32
+matrices_casillas.adb:46:01: missing "return" statement in function body
+matrices_casillas.adb:46:10: not type conformant with declaration at matrices_casillas.ads:17
+matrices_casillas.adb:46:10: return type does not match
+matrices_casillas.adb:47:26: "Casilas" is undefined
+matrices_casillas.adb:47:26: possible misspelling of "Casillas"
+matrices_casillas.adb:50:01: statement expected
+matrices_casillas.adb:57:01: statement expected
+gprbuild: *** compilation phase failed

@@ -1,4 +1,4 @@
-V "GNAT Lib v2013"
+V "GNAT Lib v2014"
 A -g
 A -g
 A -gnato
@@ -10,17 +10,17 @@ P ZX
 
 RN
 RV NO_IMPLEMENTATION_PRAGMAS
-RV SPARK
+RV SPARK_05
 
 U es_isbn_sc%b		es_isbn_sc.adb		2a65db21 NE OO SU KU
 W contar_digitos%b	contar_digitos.adb	contar_digitos.ali
 W digito_i%b		digito_i.adb		digito_i.ali
 
-D contar_digitos.adb	20170227183020 22e7efc0
-D digito_i.adb		20170227183020 de1f55ab
-D es_isbn_sc.adb	20170227183020 d69d614a
-D system.ads		20130417131036 5fc8ae56
-D s-expint.ads		20130417131028 192336fc
+D contar_digitos.adb	20170227195930 22e7efc0 contar_digitos%b
+D digito_i.adb		20170227195930 de1f55ab digito_i%b
+D es_isbn_sc.adb	20170227195930 d69d614a es_isbn_sc%b
+D system.ads		20140406181358 5fc8ae56 system%s
+D s-expint.ads		20140406181358 192336fc system.exp_int%s
 X 1 contar_digitos.adb
 1V10*Contar_Digitos{integer} 3|1w16 8s7
 X 2 digito_i.adb

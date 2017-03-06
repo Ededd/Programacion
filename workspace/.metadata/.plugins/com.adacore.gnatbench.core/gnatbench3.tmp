@@ -1,0 +1,6 @@
+gcc -c -g -g -gnato -gnatwa -gnatQ -gnat05 -gnatcQI -gnatws -gnatyN -gnatVn Matrices_Casillas.adb
+completed 1 out of 1 (100%)...
+
+   compilation of Matrices_Casillas.adb failed
+
+completed 1 out of 1 (100%)...
