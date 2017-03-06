@@ -1,32 +1,24 @@
 V "GNAT Lib v2014"
-A -gnatA
 A -g
 A -g
 A -gnato
 A -gnatwa
 A -gnatQ
 A -gnat05
-A -gnatc
-A -gnatQ
-A -gnatI
-A -gnatws
-A -gnatyN
-A -gnatVn
-A -mtune=generic
-A -march=pentiumpro
-P NO ZX
+A -gnatA
+P CE NO ZX
 
 RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
+RV SPARK_05
 
-U matrices_casillas%s	matrices_casillas.ads	c54c4010 EE OO PK
-W ada%s			ada.ads			ada.ali
-W ada.text_io%s		a-textio.adb		a-textio.ali
-W casillas%s		casillas.adb		casillas.ali
-W ids_grupo_casillas%s	ids_grupo_casillas.adb	ids_grupo_casillas.ali
-W indices%s		indices.ads		indices.ali
+U matrices_casillas%b	matrices_casillas.adb	bc8830ec OO PK
+W numeros%s		numeros.ads		numeros.ali
 
 D ada.ads		20140406181354 3ffc8e18 ada%s
 D a-finali.ads		20140406181358 69f99942 ada.finalization%s
@@ -39,6 +31,7 @@ D indices.ads		20170227195930 d42b7d02 indices%s
 D interfac.ads		20140406181358 69adb1b9 interfaces%s
 D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
 D matrices_casillas.ads	20170228113640 2b3af03e matrices_casillas%s
+D matrices_casillas.adb	20170228114212 339386a1 matrices_casillas%b
 D numeros.ads		20170227195930 a4214673 numeros%s
 D system.ads		20140406181358 5fc8ae56 system%s
 D s-crtl.ads		20140406181356 2c012597 system.crtl%s
@@ -51,40 +44,86 @@ D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
 D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
 D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 19e8 11|4r6 9r42 12r39
+16K9*Ada 19e8 11|4r6 9r42 12r39 12|4r41 10r10 20r7 25r37 30r10 39r7
 X 5 a-textio.ads
-49K13*Text_IO 471e16 11|4w10 9r46 12r43
-52P9*File_Type 11|9r54 12r51
+49K13*Text_IO 471e16 11|4w10 9r46 12r43 12|4r45 10r14 20r11 25r41 30r14 39r11
+52P9*File_Type 11|9r54 12r51 12|4r53 25r49
+168U14*Skip_Line 12|20s19 39s19
+239U14*Get 12|10s22 30s22
 X 6 casillas.ads
-2K9*Casillas 32e16 11|1w6 17r66 20r81 32r61
-4R9*Casilla 31e17 11|17r75 20r90 32r70
+2K9*Casillas 32e16 11|1w6 17r66 20r81 32r61 12|6r9 11r10 13r13 15r18 31r10
+. 35r15 54r32 66r17 67r23 75r17 76r23 90r20 91r26
+4R9*Casilla 31e17 11|17r75 20r90 32r70 12|6r18 54r41
+6U11*Crear 12|11s19 13s22 31s19
+9V10*Esta_Libre{boolean} 12|66s26 75s26 90s29
+15V10*Valor{13|3I12} 12|67s32 76s32 91s35
+18U11*Asignar_Valor 12|15s27 35s24
 X 7 ids_grupo_casillas.ads
-2K9*Ids_Grupo_Casillas 29e23 11|2w6 23r49
-4R9*Id_Grupo 28e17 11|23r68
+2K9*Ids_Grupo_Casillas 29e23 11|2w6 23r49 12|59r46 98r9 99r12 99r52 100r12
+. 100r58 101r12 101r52
+4R9*Id_Grupo 28e17 11|23r68 12|59r65
+5n24*Fila{5E9} 12|99r31
+5n30*Columna{5E9} 12|100r31
+5n39*Zona{5E9} 12|101r31
+15V13*Tipo{5E9} 12|98s28
+19V13*Orden{8|3I12} 12|99s71 100s77 101s71
 X 8 indices.ads
-1K9*Indices 7e12 11|3w6 17r43 20r57 32r26 32r42
-3I12*Indice{positive} 11|17r51 20r65 32r34 32r50
+1K9*Indices 7e12 11|3w6 17r43 20r57 32r26 32r42 12|8r16 9r22 28r18 29r22
+. 46r43 53r36 61r16 63r31 65r16 72r34 74r16 81r33 83r26 84r26
+3I12*Indice{positive} 11|17r51 20r65 32r34 32r50 12|8r24 9r30 28r26 29r30
+. 46r51 53r44 61r24 63r39 65r24 72r42 74r24 81r41 83r34 84r34
 X 11 matrices_casillas.ads
-5K9*Matrices_Casillas 32E9 33l5 33e22
-7A9*Matriz(6|4R9) 9r73 12r70 17r29 20r40 23r37 32c9
-9U14*Leer_Inicial 9=28 9<65
-9p28 Fich{5|52P9}
-9a65 MC{7A9}
-12U14*Leer_Final 12=26 12<62
-12p26 Fich{5|52P9}
-12a62 MC{7A9}
+5K9*Matrices_Casillas 32E9 33l5 33e22 12|2b14 114l5 114t22
+7A9*Matriz(6|4R9) 9r73 12r70 17r29 20r40 23r37 32c9 12|4r72 26r31 46r26 52r37
+. 59r34
+9U14*Leer_Inicial 9=28 9<65 12|4b14 24l11 24t23
+9p28 Fich{5|52P9} 12|4b28 10r26 20r29
+9a65 MC{7A9} 12|4b64 16m16
+12U14*Leer_Final 12=26 12<62 12|25b11 44l5 44t15
+12p26 Fich{5|52P9} 12|25b23 30r26 39r29
+12a62 MC{7A9} 12|26b23 36m13
 17V13*Casilla{6|4R9} 17>22 17>37 17>40
 17a22 MC{7A9}
 17i37 F{8|3I12}
 17i40 C{8|3I12}
-20U14*Copiar_Casilla 20=30 20>48 20>51 20>73
-20a30 M{7A9}
-20i48 F{8|3I12}
-20i51 C{8|3I12}
-20r73 Cas{6|4R9}
-23V13*Hay_Inconsistencias{boolean} 23>34 23>45
-23a34 M{7A9}
-23r45 IG{7|4R9}
-28X4*Error_De_Lectura
-29X4*Numero_Erroneo
+20U14*Copiar_Casilla 20=30 20>48 20>51 20>73 12|52b11 57l5 57t19
+20a30 M{7A9} 12|52b27
+20i48 F{8|3I12} 12|53b27
+20i51 C{8|3I12} 12|53b30
+20r73 Cas{6|4R9} 12|54b27
+23V13*Hay_Inconsistencias{boolean} 23>34 23>45 12|59b10 112l5 112t24
+23a34 M{7A9} 12|59b31 66r37 67r38 75r37 76r38 90r40 91r41
+23r45 IG{7|4R9} 12|59b42 98r33 99r77 100r83 101r77
+28X4*Error_De_Lectura 12|23r31 43r25
+29X4*Numero_Erroneo 12|14r56 34r53
+X 12 matrices_casillas.adb
+5a7 Cifra{string} 10m31 12r13 14r21 15r65
+6r7 C{6|4R9} 11m25 13m28 15m41 15r41 16r37
+8i8 Fila{8|3I12} 16r19
+9i11 Columna{8|3I12} 16r25
+28i10 Fila{8|3I12} 36r16
+29i11 Columna{8|3I12} 36r22
+46V10 Casilla{any type} 46b10 46>19 46>34 46>37 50l5 50t12
+46a19 MC{11|7A9}
+46i34 F{8|3I12}
+46i37 C{8|3I12}
+61a4 Aux(integer) 67m13 76m13 91m16 103r13 104r16 105r14 106r16 106r25
+63U14 Extraer_Fila 63b14 63>28 70l8 70t20 99s39
+63i28 F{8|3I12} 66r39 67r40
+65i11 C{8|3I12} 66r42 67r17 67r43
+72U14 Extraer_Columna 72b14 72>31 79l8 79t23 100s42
+72i31 C{8|3I12} 75r42 76r43
+74i11 F{8|3I12} 75r39 76r17 76r40
+81U14 Extraer_Zona 81b14 81>28 95l8 95t20 101s39
+81i28 Ord{8|3I12} 83r45 84r46
+83i7 Finicio{8|3I12} 88r16 88r27
+84i7 Cinicio{8|3I12} 89r19 89r30
+85i7 I{integer} 87m7 91r20 91m50 91r55
+88i11 F{integer} 90r42 91r43
+89i14 C{integer} 90r45 91r45
+103i8 I{integer} 105r18 105r32 106r20
+104i11 J{integer} 105r37 106r29
+X 13 numeros.ads
+1K9*Numeros 12|1w6 15r44 35r41 13|5e12
+3I12*Numero{positive} 12|15r52 35r49
 

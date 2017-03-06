@@ -1,6 +1,6 @@
 #
-#Mon Mar 06 14:38:16 CET 2017
-buildmain_history_0=%builder -d %eL -P%PP %X %T
-buildall_history_0=%builder -d %eL -P%PP %X
+#Mon Mar 06 16:16:19 CET 2017
+compilefile_history_0=%builder -ws -c -u %eL -P%PP %X %fp
+ory_0=%builder -d %eL -P%PP %X %T
 cleanall_history_0=%gprclean -r %eL -P%PP %X
 compilefile_history_0=%builder -ws -c -u %eL -P%PP %X %fp
